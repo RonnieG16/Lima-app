@@ -13,11 +13,15 @@
 <link rel="apple-touch-icon" href="icon-192.png">
 <style>
 :root{--deep:#0d3b2a;--leaf:#1f7a3a;--lime:#b8e04a;--sun:#ffb703;--bg:#f2f5ef;--card:#fff;--ink:#14201a;--hd:#0d3b2a;--lk:#1f7a3a;--field:#fff;--th:#f7faf4;--sk1:#e6ebe2;--sk2:#f4f7f1;--img-promo:var(--hero-default);--img-prices:none;--img-auth:var(--hero-img);--img-market:none;--img-weather:none;--img-admin:var(--hero-img);--img-footer:none;--muted:#5a695f;--line:#e0e6da;--bad:#c0392b;--g:var(--leaf);--g2:#e6f3df;--earth:#8a5a2b;--r:14px;
---hero-default:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 1200 520%27 preserveAspectRatio=%27xMidYMid slice%27%3E%3Cdefs%3E%3ClinearGradient id=%27a%27 x1=%270%27 y1=%270%27 x2=%270%27 y2=%271%27%3E%3Cstop offset=%270%27 stop-color=%27%23f6d98b%27/%3E%3Cstop offset=%27.55%27 stop-color=%27%23cfe7a6%27/%3E%3Cstop offset=%271%27 stop-color=%27%239fd06a%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%271200%27 height=%27520%27 fill=%27url%28%23a%29%27/%3E%3Ccircle cx=%27930%27 cy=%27130%27 r=%2770%27 fill=%27%23fff6cf%27 opacity=%27.9%27/%3E%3Cpath d=%27M0 300 Q300 230 600 290 T1200 260 V520 H0Z%27 fill=%27%236fb34a%27/%3E%3Cpath d=%27M0 350 Q320 290 640 345 T1200 320 V520 H0Z%27 fill=%27%234f9c3b%27/%3E%3Cpath d=%27M0 410 Q340 355 680 405 T1200 385 V520 H0Z%27 fill=%27%232f7d33%27/%3E%3Cpath d=%27M0 470 Q360 425 720 465 T1200 450 V520 H0Z%27 fill=%27%231f6a2c%27/%3E%3C/svg%3E");--hero-img:var(--hero-default);--sh:0 1px 2px rgba(13,59,42,.06),0 6px 18px rgba(13,59,42,.07)}
+--hero-default:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 1200 520%27 preserveAspectRatio=%27xMidYMid slice%27%3E%3Cdefs%3E%3ClinearGradient id=%27a%27 x1=%270%27 y1=%270%27 x2=%270%27 y2=%271%27%3E%3Cstop offset=%270%27 stop-color=%27%23f6d98b%27/%3E%3Cstop offset=%27.55%27 stop-color=%27%23cfe7a6%27/%3E%3Cstop offset=%271%27 stop-color=%27%239fd06a%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%271200%27 height=%27520%27 fill=%27url%28%23a%29%27/%3E%3Ccircle cx=%27930%27 cy=%27130%27 r=%2770%27 fill=%27%23fff6cf%27 opacity=%27.9%27/%3E%3Cpath d=%27M0 300 Q300 230 600 290 T1200 260 V520 H0Z%27 fill=%27%236fb34a%27/%3E%3Cpath d=%27M0 350 Q320 290 640 345 T1200 320 V520 H0Z%27 fill=%27%234f9c3b%27/%3E%3Cpath d=%27M0 410 Q340 355 680 405 T1200 385 V520 H0Z%27 fill=%27%232f7d33%27/%3E%3Cpath d=%27M0 470 Q360 425 720 465 T1200 450 V520 H0Z%27 fill=%27%231f6a2c%27/%3E%3C/svg%3E");--hero-img:var(--hero-default);--sh:0 1px 2px rgba(13,59,42,.06),0 6px 18px rgba(13,59,42,.07);
+--sh-hover:0 12px 32px rgba(13,59,42,.18),0 4px 12px rgba(13,59,42,.08);
+--ring:0 0 0 3px rgba(184,224,74,.45)}
 *{box-sizing:border-box}
 :root[data-theme=dark]{color-scheme:dark;--bg:#0e1612;--card:#16221b;--ink:#e6efe8;--muted:#9bb0a2;--line:#273a2f;--g2:#1f3a2a;--leaf:#2a8f4c;--hd:#e8f5ec;--lk:#86dc9f;--field:#0f1a14;--th:#1b2a22;--sk1:#1d2b23;--sk2:#2a3c31;--sh:0 1px 2px rgba(0,0,0,.4),0 6px 18px rgba(0,0,0,.35)}
 html{scroll-behavior:smooth}
-body{margin:0;font:16px/1.55 'DM Sans',system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}
+body{margin:0;font:16px/1.55 'DM Sans',system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased;
+background-image:radial-gradient(ellipse 120% 80% at 10% -20%,rgba(184,224,74,.12),transparent 50%),radial-gradient(ellipse 80% 60% at 90% 10%,rgba(31,122,58,.08),transparent 45%);
+min-height:100vh}
 h1,h2,h3,.brand{font-family:'Bricolage Grotesque','DM Sans',system-ui,sans-serif;letter-spacing:-.01em}
 h2{font-size:1.35rem;margin:1.2rem 0 .7rem;color:var(--hd)}h3{margin:.2rem 0;font-size:1.05rem}
 a{color:var(--lk)}
@@ -28,10 +32,10 @@ header.top{background:var(--deep);color:#fff;position:sticky;top:0;z-index:20;bo
 .hs button{width:auto;margin:0;border-radius:0 999px 999px 0;background:var(--lime);color:var(--deep);padding:0 1.2rem}
 .env{font-size:.75rem;background:#ffffff1f;border-radius:999px;padding:.15rem .6rem;white-space:nowrap}
 nav{max-width:1180px;margin:0 auto;display:flex;gap:.35rem;padding:0 1rem .55rem;overflow-x:auto;scrollbar-width:none}
-nav a{color:#d9eadf;text-decoration:none;padding:.35rem .85rem;border-radius:999px;white-space:nowrap;font-weight:600;font-size:.93rem;min-height:36px;display:inline-flex;align-items:center;transition:background .15s}
-nav a:hover{background:#ffffff1a}nav a[aria-current]{background:var(--lime);color:var(--deep)}
+nav a{color:#d9eadf;text-decoration:none;padding:.35rem .85rem;border-radius:999px;white-space:nowrap;font-weight:600;font-size:.93rem;min-height:36px;display:inline-flex;align-items:center;gap:.25rem;transition:background .2s,color .2s,transform .15s,box-shadow .2s}
+nav a:hover{background:#ffffff1a}nav a:hover{background:#ffffff22;color:#fff;transform:translateY(-1px)}nav a[aria-current]{background:var(--lime);color:var(--deep);box-shadow:0 4px 14px rgba(184,224,74,.35)}nav a[aria-current]:hover{background:#c8f05a;transform:translateY(-1px)}
 .n{background:var(--sun);color:#222;border-radius:1rem;padding:0 .45rem;margin-left:.35rem;font-size:.75rem;font-weight:700}
-main{max-width:1180px;margin:0 auto;padding:1rem 1rem 3rem;min-height:70vh}main.enter{animation:in .28s ease-out}
+main{max-width:1180px;margin:0 auto;padding:1rem 1rem 3rem;min-height:70vh}main.enter{animation:in .35s cubic-bezier(.22,1,.36,1)}
 @keyframes in{from{opacity:.0;transform:translateY(6px)}to{opacity:1;transform:none}}
 footer{background:linear-gradient(#0d3b2aeb,#0d3b2aeb),var(--img-footer) center/cover,var(--deep);color:#b9d3c3;padding:1.6rem 1rem;text-align:center;font-size:.9rem}footer a{color:var(--lime)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:1rem;margin:.7rem 0;box-shadow:var(--sh)}
@@ -39,7 +43,7 @@ footer{background:linear-gradient(#0d3b2aeb,#0d3b2aeb),var(--img-footer) center/
 label{display:block;font-weight:600;margin:.55rem 0 .2rem;font-size:.92rem}
 input,select,textarea,button{font:inherit;padding:.6rem .75rem;border:1px solid #b9c4b4;border-radius:10px;width:100%;min-height:44px;background:var(--field);color:var(--ink)}
 input:focus,select:focus,textarea:focus{border-color:var(--leaf);box-shadow:0 0 0 3px #1f7a3a22;outline:0}
-button{background:var(--leaf);color:#fff;border:0;font-weight:700;cursor:pointer;margin-top:.5rem;transition:transform .12s,background .15s}
+button{background:var(--leaf);color:#fff;border:0;font-weight:700;cursor:pointer;margin-top:.5rem;transition:transform .15s ease,background .2s,box-shadow .2s,filter .2s;box-shadow:0 2px 8px rgba(31,122,58,.25)}button:hover{background:#269645;transform:translateY(-2px);box-shadow:0 6px 18px rgba(31,122,58,.35)}button:active{transform:translateY(0) scale(.97);box-shadow:0 2px 6px rgba(31,122,58,.2)}button.alt{background:transparent;color:var(--leaf);border:2px solid var(--leaf);box-shadow:none}button.alt:hover{background:var(--g2);transform:translateY(-2px);box-shadow:0 4px 12px rgba(31,122,58,.12)}
 button:hover{background:#17652f}button:active{transform:scale(.98)}
 button.alt{background:transparent;color:var(--lk);border:1px solid var(--lk)}button.alt:hover{background:var(--g2)}
 button.danger{background:var(--bad)}button:disabled{opacity:.5;cursor:default}
@@ -56,17 +60,17 @@ td input,td select{min-height:36px;padding:.3rem .5rem}td button{margin:0;min-he
 .hero-in{padding:clamp(1.6rem,6vw,3.6rem) clamp(1.2rem,4vw,3rem);max-width:680px}
 .hero h1{font-size:clamp(1.9rem,5.2vw,3.2rem);line-height:1.05;margin:.2rem 0 .6rem}.hero p{margin:0 0 1rem;color:#e3f1e8;font-size:1.05rem}
 .hsearch{display:none;max-width:520px}.hsearch input{border-radius:999px 0 0 999px;border:0;min-height:48px}.hs input,.hsearch input{background:#fff;color:#14201a}.hsearch button{width:auto;margin:0;border-radius:0 999px 999px 0;background:var(--lime);color:var(--deep);padding:0 1.4rem}
-.chips{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}.chips button{width:auto;margin:0;min-height:38px;background:#ffffff22;color:#fff;border:1px solid #ffffff44;border-radius:999px;padding:.3rem .9rem;backdrop-filter:blur(4px)}.chips button:hover{background:#ffffff40}
+.chips{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}.chips button{width:auto;margin:0;min-height:38px;background:#ffffff22;color:#fff;border:1px solid #ffffff44;border-radius:999px;padding:.3rem .9rem;backdrop-filter:blur(4px);transition:background .2s,transform .15s,box-shadow .2s}.chips button:hover{background:#ffffff40;transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.15)}
 .trust{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.7rem;margin:.4rem 0 .6rem}.trust div{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:.8rem 1rem;box-shadow:var(--sh)}.trust b{display:block;color:var(--hd)}
 .sec-h{display:flex;justify-content:space-between;align-items:baseline}.sec-h a{font-weight:700;text-decoration:none}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1rem}.grid>.card{margin:0}
-.lc{padding:0;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .2s}.lc:hover{box-shadow:0 10px 28px rgba(13,59,42,.16)}
+.lc{padding:0;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .25s ease,transform .25s ease,border-color .2s;border:1px solid transparent}.lc:hover{box-shadow:var(--sh-hover);transform:translateY(-4px);border-color:rgba(31,122,58,.15)}.lc .im img{transition:transform .4s ease}.lc:hover .im img{transform:scale(1.06)}
 .lc .im{aspect-ratio:4/3;background:linear-gradient(135deg,#dff0cf,#bfe0a0);display:grid;place-items:center;font-size:3rem;overflow:hidden;position:relative}.lc .im img{width:100%;height:100%;object-fit:cover}
 .lc .im .km{position:absolute;left:.5rem;bottom:.5rem;background:#0d3b2acc;color:#fff;font-size:.75rem;border-radius:999px;padding:.1rem .6rem}
 .lc .lb{padding:.8rem;display:flex;flex-direction:column;gap:.15rem;flex:1}.lc .pr{font-size:1.15rem;font-weight:800;color:var(--hd)}.lc .pr small{font-weight:500;color:var(--muted)}
 .lc .row{margin-top:auto;padding-top:.5rem}.lc .row button{margin:0;min-height:38px;padding:.3rem .5rem}
 img.ph{width:100%;max-height:340px;object-fit:cover;border-radius:12px}
-.prices{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.6rem}.prices div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.6rem .8rem;transition:transform .18s,box-shadow .18s,border-color .18s;cursor:default}.prices div:hover{transform:translateY(-4px);box-shadow:0 10px 24px rgba(13,59,42,.18);border-color:var(--leaf)}.prices b{display:block;font-size:1.05rem;color:var(--hd)}.prices small{display:block;max-height:0;overflow:hidden;opacity:0;color:var(--muted);transition:max-height .2s,opacity .2s}.prices div:hover small{max-height:1.5em;opacity:1}
+.prices{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.6rem}.prices div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.6rem .8rem;transition:transform .22s ease,box-shadow .22s,border-color .2s;cursor:default}.prices div:hover{transform:translateY(-5px);box-shadow:var(--sh-hover);border-color:var(--leaf)}.prices b{display:block;font-size:1.05rem;color:var(--hd)}.prices small{display:block;max-height:0;overflow:hidden;opacity:0;color:var(--muted);transition:max-height .2s,opacity .2s}.prices div:hover small{max-height:1.5em;opacity:1}
 .sk{background:linear-gradient(100deg,var(--sk1) 30%,var(--sk2) 50%,var(--sk1) 70%) 0 0/300% 100%;animation:sh 1.3s linear infinite;border-radius:8px}
 @keyframes sh{to{background-position:-150% 0}}
 .sk-img{aspect-ratio:4/3;border-radius:0}.sk-l{height:14px;margin:.45rem 0}.w40{width:40%}.w70{width:70%}.w90{width:90%}.sk-hero{height:240px;border-radius:20px;margin-bottom:1rem}.sk-tile{height:92px;border-radius:var(--r)}
@@ -78,8 +82,8 @@ img.ph{width:100%;max-height:340px;object-fit:cover;border-radius:12px}
 @keyframes pulse{50%{opacity:.25}}
 .adm{display:grid;grid-template-columns:200px minmax(0,1fr);gap:1rem;align-items:start}
 .side{display:flex;flex-direction:column;gap:.2rem;position:sticky;top:104px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:.5rem;box-shadow:var(--sh);overflow:visible}
-.side a{color:var(--ink);padding:.5rem .8rem;border-radius:10px;font-weight:600;min-height:40px}.side a:hover{background:var(--g2)}.side a[aria-current]{background:var(--deep);color:#fff}
-.stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:.8rem}.stat{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:.9rem 1rem;box-shadow:var(--sh);border-top:4px solid var(--leaf)}
+.side a{color:var(--ink);padding:.5rem .8rem;border-radius:10px;font-weight:600;min-height:40px;transition:background .2s,color .2s,transform .15s,padding-left .2s}.side a:hover{background:var(--g2);transform:translateX(3px)}.side a[aria-current]{background:var(--deep);color:#fff;box-shadow:0 4px 12px rgba(13,59,42,.25)}.side a[aria-current]:hover{transform:none}
+.stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:.8rem}.stat{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:.9rem 1rem;box-shadow:var(--sh);border-top:4px solid var(--leaf);transition:transform .2s,box-shadow .25s}.stat:hover{transform:translateY(-3px);box-shadow:var(--sh-hover)}
 .stat span{color:var(--muted);font-size:.85rem}.stat b{display:block;font-family:'Bricolage Grotesque',sans-serif;font-size:1.7rem;color:var(--hd)}.stat.warn{border-top-color:var(--sun)}.stat.bad{border-top-color:var(--bad)}
 .bars{display:flex;align-items:flex-end;gap:.6rem;height:170px;padding-top:1rem}.bars div{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;font-size:.78rem;color:var(--muted)}
 .bars b{display:block;width:100%;max-width:46px;background:linear-gradient(var(--leaf),var(--lime));border-radius:8px 8px 0 0;min-height:3px;transition:height .5s}.bars em{font-style:normal;font-weight:700;color:var(--hd)}
@@ -96,7 +100,7 @@ body.big{font-size:20px}#banner{background:var(--sun);color:#3d2a00;padding:.5re
 .shop{display:grid;grid-template-columns:270px minmax(0,1fr);gap:1.2rem;align-items:start}.filters{position:sticky;top:112px;margin:0}.filters h3{margin-bottom:.4rem}
 .catl{display:flex;flex-direction:column;gap:.3rem;margin-bottom:.6rem}.catl button{margin:0;text-align:left;min-height:38px}.catl button.on{background:var(--leaf);color:#fff;border-color:var(--leaf)}
 .cattiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.8rem}
-.ct{margin:0;min-height:130px;border-radius:var(--r);display:flex;align-items:flex-end;justify-content:flex-start;color:#fff;font-size:1.05rem;font-family:'Bricolage Grotesque',sans-serif;background:#2a8f4c center/cover;transition:transform .18s,box-shadow .18s;text-shadow:0 1px 6px #0008}.ct:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(13,59,42,.28)}
+.ct{margin:0;min-height:130px;border-radius:var(--r);display:flex;align-items:flex-end;justify-content:flex-start;color:#fff;font-size:1.05rem;font-family:'Bricolage Grotesque',sans-serif;background:#2a8f4c center/cover;transition:transform .25s ease,box-shadow .25s ease,filter .25s;text-shadow:0 1px 6px #0008;box-shadow:0 4px 14px rgba(13,59,42,.12)}.ct:hover{transform:translateY(-5px) scale(1.02);box-shadow:0 14px 28px rgba(13,59,42,.22);filter:brightness(1.05)}.ct:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(13,59,42,.28)}
 .promo{border-radius:20px;color:#fff;padding:clamp(1.4rem,4vw,2.4rem);margin:1.4rem 0;background:linear-gradient(95deg,#0d3b2af0,#0d3b2a88),var(--img-promo) center/cover}.promo h2{color:#fff;margin:0 0 .3rem}.promo p{max-width:520px;color:#e3f1e8}.promo button{width:auto;background:var(--lime);color:var(--deep);padding:0 1.4rem}
 .tbtn{width:42px;height:42px;min-height:42px;padding:0;margin:0;border-radius:50%;background:#ffffff1f;font-size:1.1rem}.tbtn:hover{background:#ffffff38}
 .slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:.8rem}.slot{border:1px solid var(--line);border-radius:12px;padding:.6rem}.slot .thumb{height:90px;border-radius:8px;background:#2a8f4c center/cover;margin-bottom:.4rem}.slot label{margin:.1rem 0}.slot input{min-height:36px;padding:.3rem}.slot button{min-height:34px;margin-top:.3rem}
@@ -104,13 +108,57 @@ body.big{font-size:20px}#banner{background:var(--sun);color:#3d2a00;padding:.5re
 .lthumb{width:64px;height:48px;border-radius:8px;background:#2a8f4c center/cover;margin-bottom:.3rem}.lph input{min-height:34px;padding:.2rem;font-size:.8rem;width:150px}.lph button{min-height:30px;margin-top:.2rem;padding:.1rem .6rem;width:auto}
 .paybg{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;z-index:60;padding:16px}.paybg .card{max-width:390px;width:100%;margin:0}
 .paybg .xbtn{width:auto;margin:0;min-height:36px;padding:0 .8rem}
-@media(max-width:760px){.shop{grid-template-columns:1fr}.filters{position:static}.hsearch{display:flex}.tbtn{margin-left:auto}.hs{display:none}.env{display:none}.bar{padding-bottom:.2rem}.authwrap{grid-template-columns:1fr}.authside{min-height:0}.adm{grid-template-columns:1fr}.side{position:static;flex-direction:row;overflow-x:auto}.side a{white-space:nowrap}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem}.lc .row{flex-direction:column}.adm-hero{flex-direction:column;align-items:flex-start}}
+
+.brand img{width:32px;height:32px;object-fit:contain;border-radius:8px;flex:0 0 32px}
+.wx-hero{position:relative;min-height:150px;border-radius:14px;overflow:hidden;margin:.2rem 0 1rem;background:linear-gradient(100deg,#0d3b2ac9,#0d3b2a55),var(--img-weather) center/cover;color:#fff;padding:1.2rem;display:flex;align-items:flex-end}
+.wx-hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.wx-hero:after{content:'';position:absolute;inset:0;background:linear-gradient(100deg,#0d3b2acc,#0d3b2a55);z-index:1}
+.wx-hero h2{position:relative;z-index:2;color:#fff;margin:0}
+.grid{align-items:start}
+.lc{height:auto;align-self:start;animation:limaCardIn .45s both}
+.lc .lb{flex:none;min-height:0}
+.lc .row{margin-top:.35rem;padding-top:.35rem;gap:.35rem;align-items:stretch}
+.lc .row button,.lc .row .btnlink{flex:1;min-width:0}
+.lc .row .btnlink button{width:100%}
+.lc .row button{white-space:normal;line-height:1.2}
+@keyframes limaCardIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes btnPress{0%{transform:scale(1)}50%{transform:scale(.96)}100%{transform:scale(1)}}
+button:active{animation:btnPress .18s ease}
+.lc:nth-child(1){animation-delay:.05s}.lc:nth-child(2){animation-delay:.1s}.lc:nth-child(3){animation-delay:.15s}.lc:nth-child(4){animation-delay:.2s}.lc:nth-child(5){animation-delay:.25s}.lc:nth-child(6){animation-delay:.3s}
+@media(max-width:760px){
+  .shop{grid-template-columns:1fr}
+  .filters{position:static}
+  .hsearch{display:flex}
+  .tbtn{margin-left:auto}
+  .hs{display:none}
+  .env{display:none}
+  .bar{padding-bottom:.2rem}
+  .authwrap{grid-template-columns:1fr}
+  .authside{min-height:0}
+  .adm{grid-template-columns:1fr}
+  .side{position:static;flex-direction:row;overflow-x:auto}
+  .side a{white-space:nowrap}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:.55rem;align-items:start}
+  .lc{height:auto;min-height:0;border-radius:12px}
+  .lc .im{aspect-ratio:1/1;font-size:2.2rem}
+  .lc .lb{padding:.55rem .6rem .65rem;gap:.08rem}
+  .lc .lb h3{font-size:.95rem;line-height:1.2;margin:0}
+  .lc .pr{font-size:1rem}
+  .lc .muted{font-size:.78rem;line-height:1.25}
+  .lc .row{flex-direction:column;gap:.3rem;margin-top:.25rem;padding-top:.25rem}
+  .lc .row button{min-height:34px;font-size:.85rem;padding:.25rem .4rem}
+  .adm-hero{flex-direction:column;align-items:flex-start}
+}
+@media(max-width:380px){
+  .grid{grid-template-columns:1fr;gap:.7rem}
+  .lc .im{aspect-ratio:16/10}
+}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.ticker{overflow-x:auto}}
 @media print{header,footer,#toast,.noprint{display:none!important}body{background:#fff}.card{border:0;box-shadow:none}}
 </style>
 </head>
 <body>
-<header class="top"><div class="bar"><a class="brand" href="#/" aria-label="Lima home"><svg width='30' height='30' viewBox='0 0 32 32' aria-hidden='true'><circle cx='16' cy='16' r='14' fill='#b8e04a'/><circle cx='16' cy='16' r='10.5' fill='#0d3b2a'/><path d='M16 16V6M16 16l8.5-5M16 16l8.5 5M16 16V26M16 16l-8.5 5M16 16l-8.5-5' stroke='#b8e04a' stroke-width='1.6'/></svg><span>Lima</span></a><form id="hsearch" class="hs" role="search"><input name="q" placeholder="Search maize, beans, matooke…" aria-label="Search produce"><button aria-label="Search">Search</button></form><span class="env" title="Fictitious data and test-mode payments">Sandbox</span><button id="themebtn" class="tbtn" type="button" aria-label="Switch theme">🌙</button></div><nav id="nav" aria-label="Main"></nav></header>
+<header class="top"><div class="bar"><a class="brand" href="#/" aria-label="Lima home"><img id='brand-logo' src='icon-192.png' alt='' width='32' height='32'><span>Lima</span></a><form id="hsearch" class="hs" role="search"><input name="q" placeholder="Search maize, beans, matooke…" aria-label="Search produce"><button aria-label="Search">Search</button></form><span class="env" title="Fictitious data and test-mode payments">Sandbox</span><button id="themebtn" class="tbtn" type="button" aria-label="Switch theme">🌙</button></div><nav id="nav" aria-label="Main"></nav></header>
 <div id="banner" role="status"></div>
 <main id="app" tabindex="-1"><div class="sk sk-hero"></div><div class="grid"><div class="card lc"><div class="sk sk-img"></div><div class="lb"><div class="sk sk-l w70"></div><div class="sk sk-l w40"></div></div></div><div class="card lc"><div class="sk sk-img"></div><div class="lb"><div class="sk sk-l w70"></div><div class="sk sk-l w40"></div></div></div><div class="card lc"><div class="sk sk-img"></div><div class="lb"><div class="sk sk-l w70"></div><div class="sk sk-l w40"></div></div></div><div class="card lc"><div class="sk sk-img"></div><div class="lb"><div class="sk sk-l w70"></div><div class="sk sk-l w40"></div></div></div></div></main>
 <footer>Lima: fresh produce from Ugandan farmers, paid only when it arrives. Sandbox with fictitious data and test-mode payments. <a href="#/market">Browse the market</a></footer>
@@ -179,9 +227,15 @@ function toast(m, bad) { const t = document.getElementById('toast'); t.textConte
 async function run(p, ok) { const r = await p; if (r.error) { toast(r.error.message, true); throw r.error; } if (ok) toast(ok); return r.data; }
 async function upload(file, kind) {
   if (!file || !file.size) return null;
-  if (!/^image\//.test(file.type) || file.size > 3e6) { toast('Photo must be an image under 3 MB', true); throw new Error('bad file'); }
-  const path = `${me.user_id}/${kind}-${Date.now()}.${file.name.split('.').pop().replace(/[^a-z0-9]/gi, '')}`;
-  await run(sb.storage.from('photos').upload(path, file));
+  const isImage = /^image\//i.test(file.type), isVideo = /^video\/(mp4|webm|quicktime)$/i.test(file.type);
+  const limit = isVideo && kind === 'weather-video' ? 30 * 1024 * 1024 : 10 * 1024 * 1024;
+  if ((!isImage && !(isVideo && kind === 'weather-video')) || file.size > limit) {
+    toast(isVideo ? 'Weather video must be MP4, WebM or MOV and no larger than 30 MB' : 'Image must be no larger than 10 MB', true);
+    throw new Error('bad file');
+  }
+  const ext = file.name.split('.').pop().replace(/[^a-z0-9]/gi, '').toLowerCase() || (isVideo ? 'mp4' : 'jpg');
+  const path = `${me.user_id}/${kind}-${Date.now()}.${ext}`;
+  await run(sb.storage.from('photos').upload(path, file, { upsert: false, contentType: file.type }));
   return sb.storage.from('photos').getPublicUrl(path).data.publicUrl;
 }
 async function loadSettings() {
@@ -190,6 +244,11 @@ async function loadSettings() {
   DELIVERY_FEE = +SET.delivery_fee_ugx || 0; FEE_PCT = SET.platform_fee_pct === undefined ? 5 : +SET.platform_fee_pct;
   RIDER_SHARE = (SET.rider_share_pct === undefined ? 90 : +SET.rider_share_pct) / 100;
   document.getElementById('banner').textContent = SET.banner || '';
+  const brand = document.getElementById('brand-logo');
+  if (brand) brand.src = SET.logo_url || 'icon-192.png';
+  const iconUrl = SET.logo_url || 'icon-192.png';
+  document.querySelectorAll('link[rel="icon"],link[rel="apple-touch-icon"]').forEach(el => { el.href = iconUrl; });
+
   const root = document.documentElement.style;
   root.setProperty('--img-promo', SET.img_promo ? cssUrl(SET.img_promo) : 'var(--hero-default)');
   root.setProperty('--img-prices', SET.img_prices ? cssUrl(SET.img_prices) : 'none');
@@ -245,7 +304,7 @@ function startLive() {   // live updates: new produce appears on its own; the ad
     else if (ev === 'listings' && (h === '#/' || h === '' )) viewHome(true).catch(() => {});
   }, 700); };
   let c = sb.channel('live').on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'listings' }, p => { toast('New on the market: ' + p.new.produce); ping('listings'); });
-  if (me?.role === 'admin') for (const t of ['orders', 'disputes', 'payments']) c = c.on('postgres_changes', { event: '*', schema: 'public', table: t }, () => ping(t));
+  if (me?.role === 'admin') for (const t of ['orders', 'disputes', 'payments', 'notifications', 'profiles']) c = c.on('postgres_changes', { event: '*', schema: 'public', table: t }, () => ping(t));
   live = c.subscribe();
 }
 const CATKEY = { Grains: 'img_cat_grains', Vegetables: 'img_cat_vegetables', Fruits: 'img_cat_fruits', Tubers: 'img_cat_tubers', 'Cash crops': 'img_cat_cash', Other: 'img_cat_other' };
@@ -258,7 +317,7 @@ const art = (cat, emoji) => { const [a, b] = CATBG[cat] || CATBG.Other;
 const cssUrl = u => "url('" + String(u).replace(/['"\\\s]/g, '') + "')";
 const catImg = c => SET[CATKEY[c]] || art(c);
 const listImg = l => l.photo_url || SET[CATKEY[l.category]] || art(l.category, (EMO.find(([k]) => String(l.produce).toLowerCase().includes(k)) || [])[1]);
-const IMG_SLOTS = [['hero_image_url', 'Home page background', 'var(--hero-default)'], ['img_promo', 'Promo banner', 'var(--hero-default)'], ['img_prices', 'Price ticker background', 'none'], ['img_auth', 'Sign-in side picture', 'var(--hero-default)'], ['img_market', 'Market page banner (top of the market)', 'none'], ['img_weather', 'Weather page banner', 'none'], ['img_admin', 'Admin dashboard header', 'var(--hero-default)'], ['img_footer', 'Footer background', 'none'],
+const IMG_SLOTS = [['logo_url', 'App logo (header and browser icon)', 'url(\"icon-192.png\")'], ['hero_image_url', 'Home page background', 'var(--hero-default)'], ['img_promo', 'Promo banner', 'var(--hero-default)'], ['img_prices', 'Price ticker background', 'none'], ['img_auth', 'Sign-in side picture', 'var(--hero-default)'], ['img_market', 'Market page banner (top of the market)', 'none'], ['img_weather', 'Weather page banner', 'none'], ['img_admin', 'Admin dashboard header', 'var(--hero-default)'], ['img_footer', 'Footer background', 'none'],
   ...CATS.map(c => [CATKEY[c], c + ' (tile and default produce picture)', null, c])];
 const tickerHtml = () => PRICES.length ? `<div class="ticker" aria-label="Market prices, scrolling"><div class="trk">${[0, 1].map(() => PRICES.map(p => `<span class="ti" title="Updated ${esc(p.as_of)}"><b>${esc(p.produce)}</b> ${ugx(p.avg_price_ugx)}/kg</span>`).join('')).join('')}</div></div>` : '';
 let SHOWN = 24;
@@ -316,12 +375,12 @@ function openPay(orders, onPaid) {
     stop();
     timer = setInterval(async () => {
       tries++;
-      const { data } = await sb.from('orders').select('payment_status,thewton_txn_id,stage').eq('order_id', queue[i].id).single();
-      if (data?.payment_status === 'paid' || data?.stage >= 2) {
+      const { data } = await sb.from('orders').select('stage,status').eq('order_id', queue[i].id).single();
+      if (data?.stage >= 2) {
         stop();
         if (i < queue.length - 1) { i++; charge(); } else { showReceipt(data); if (onPaid) onPaid(); }
       }
-      else if (data?.payment_status === 'failed') showForm('The payment was declined or cancelled. You can try again.');
+      else if (data?.status === 'cancelled') showForm('The payment was declined or cancelled. You can try again.');
       else if (tries > 60) showForm('No response yet. If you approved the payment, wait a moment and check your orders. Otherwise try again.');
     }, 3000);
   }
@@ -351,6 +410,7 @@ async function route() {
     }
     if (!me.onboarded) return viewOnboard();
     if (!me.phone_verified) return viewVerify();
+    if (me.role === 'agent' && me.approval_status !== 'approved') return viewAgentPending();
     const farm = ['farmer', 'agent'].includes(me.role);
     if (p === 'market') return await viewMarket();
     if (p === 'prices') return await viewPrices();
@@ -370,6 +430,12 @@ async function route() {
     return await viewHome();
   } catch (e) { if (!e.message?.includes('bad file')) console.error(e);
     if (/failed to fetch|network/i.test(e?.message || '')) $app.innerHTML = '<div class="card"><h3>Can’t reach Lima’s server</h3><p class="muted">Check your internet connection, then try again.</p><button type="button" data-act="retry">Try again</button></div>'; }
+}
+
+// Village agents require admin approval before agent tools become available.
+function viewAgentPending() {
+  const rejected = me?.approval_status === 'rejected';
+  $app.innerHTML = `<section class="card pending-agent"><h2>${rejected ? 'Account not approved' : 'Account awaiting approval'}</h2><p>${rejected ? 'Your village-agent account was not approved. Please contact Lima support if you think this is a mistake.' : 'Your village-agent account has been created. Lima’s admin team must approve it before you can access agent tools.'}</p><p class="muted">Sign out and return later, or check again after approval.</p><button type="button" data-act="retry">Check approval status</button></section>`;
 }
 
 // ---------- auth
@@ -563,7 +629,7 @@ async function viewSell() {
    <div class="row"><div><label for="qt">Quantity (kg)</label><input id="qt" name="qty" type="number" min="1" step="0.5" required></div>
    <div><label for="pp">Price per kg (UGX)</label><input id="pp" name="price" type="number" min="1" required></div>
    <div><label for="hd">Harvest date</label><input id="hd" name="harvest" type="date" max="${new Date().toISOString().slice(0, 10)}" required></div></div>
-   ${locFields()}<label for="ph">Photo (optional, under 3 MB)</label><input id="ph" name="photo" type="file" accept="image/*" capture="environment">
+   ${locFields()}<label for="ph">Photo (optional, up to 10 MB)</label><input id="ph" name="photo" type="file" accept="image/*" capture="environment">
    <button>Publish listing</button></form></div>
    <h2>My listings</h2>${mine.map(l => `<div class="card"><b>${esc(l.produce)}</b> · ${esc(l.qty_kg)} kg left · ${ugx(l.price_ugx)}/kg</div>`).join('') || '<p class="muted">None yet.</p>'}`;
   bindLoc($app.querySelector('form'), me);
@@ -650,7 +716,7 @@ async function viewReceipt(id) {
    <tr><td>Delivery (${esc(o.mode)})</td><td>${ugx(o.delivery_fee_ugx)}</td></tr>
    <tr><td><b>${isBuyer ? 'Total paid' : 'Buyer paid'}</b></td><td><b>${ugx(p.amount_ugx)}</b></td></tr>
    ${isBuyer ? '' : `<tr><td>Platform fee (${FEE_PCT}%)</td><td>− ${ugx(p.fee_ugx)}</td></tr><tr><td><b>Your payout</b></td><td><b>${ugx(produce - p.fee_ugx)}</b></td></tr>`}</table>
-   <p>Escrow status: <span class="tag">${esc(p.status)}</span> via Flutterwave (test mode)</p>
+   <p>Escrow status: <span class="tag">${esc(p.status)}</span> via mobile money (test mode)</p>
    <button type="button" class="noprint" onclick="window.print()">Print or save as PDF</button></div>`;
 }
 
@@ -688,7 +754,7 @@ function adviceFor(d, role) {
 async function viewWeather() {
   const c = ORIGIN?.c || townInfo(me?.town)?.c, name = ORIGIN ? 'your location (near ' + ORIGIN.name + ')' : me.town;
   if (!c) { $app.innerHTML = '<h2>Weather</h2><div class="card">Set your town in Profile first.</div>'; return; }
-  $app.innerHTML = `${SET.img_weather ? '<div class="pgbanner" style="background:linear-gradient(transparent 30%,#0d3b2acc),var(--img-weather) center/cover">Weather and advice</div>' : '<h2>Weather and advice</h2>'}<div class="card" id="wx">Loading the forecast for ${esc(name)}…</div>`;
+  $app.innerHTML = `${SET.weather_video_url || SET.img_weather ? `<section class="wx-hero">${SET.weather_video_url ? `<video autoplay muted loop playsinline aria-hidden="true" src="${esc(SET.weather_video_url)}"></video>` : ''}<h2>Weather and advice</h2></section>` : '<h2>Weather and advice</h2>'}<div class="card" id="wx">Loading the forecast for ${esc(name)}…</div>`;
   try {
     const r = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${c[0]}&longitude=${c[1]}&daily=weathercode,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max&timezone=auto&forecast_days=5`);
     if (!r.ok) throw 0; const d = (await r.json()).daily;
@@ -741,9 +807,10 @@ async function adminPane(tab) {
   }
   if (tab === 'users') {
     const us = await run(sb.from('profiles').select('*').order('created_at', { ascending: false }).limit(300));
-    return `<h2 style="margin-top:0">People (${us.length})</h2><input id="uq" placeholder="Search by name, phone, role or town" aria-label="Search people"><div class="tbl" style="margin-top:.6rem"><table><tr><th>Name</th><th>Phone</th><th>Town</th><th>Joined</th><th>Role</th><th></th></tr>
+    return `<h2 style="margin-top:0">People (${us.length})</h2><input id="uq" placeholder="Search by name, phone, role or town" aria-label="Search people"><div class="tbl" style="margin-top:.6rem"><table><tr><th>Name</th><th>Phone</th><th>Town</th><th>Joined</th><th>Role</th><th>Agent approval</th><th></th></tr>
       ${us.map(u => `<tr data-s="${esc([u.name, u.phone_no, u.role, u.town].join(' ').toLowerCase())}"><td>${esc(u.name)}</td><td>${esc(u.phone_no)}</td><td>${esc(u.town || '')}</td><td>${esc(u.created_at.slice(0, 10))}</td>
       <td><select aria-label="Role of ${esc(u.name)}" ${u.user_id === me.user_id ? 'disabled' : ''}>${['buyer', 'farmer', 'agent', 'rider', 'admin'].map(r => `<option ${r === u.role ? 'selected' : ''}>${r}</option>`).join('')}</select></td>
+      <td>${u.role === 'agent' ? `<span class="tag ${u.approval_status === 'approved' ? '' : 'warn'}">${esc(u.approval_status || 'pending')}</span>${u.approval_status !== 'approved' ? btn('approveagent', u.user_id, 'Approve') : ''}` : '—'}</td>
       <td>${u.user_id === me.user_id ? '<span class="muted">You</span>' : btn('setrole', u.user_id, 'Save')}</td></tr>`).join('')}</table></div>`;
   }
   if (tab === 'listings') {
@@ -773,13 +840,13 @@ async function adminPane(tab) {
   }
   if (tab === 'site') {
     const slot = ([key, title, def, cat]) => `<div class="slot"><div class="thumb" style="background-image:${SET[key] ? cssUrl(SET[key]) : cat ? cssUrl(art(cat)) : def}"></div><label for="im_${key}">${esc(title)}</label>
-      <input id="im_${key}" name="${key}" type="file" accept="image/*">${SET[key] ? btn('imgoff', key, 'Use sample picture', 'alt') : '<span class="muted">Sample picture in use</span>'}</div>`;
+      <input id="im_${key}" name="${key}" type="file" accept="image/*">${SET[key] ? btn('imgoff', key, key === 'logo_url' ? 'Remove logo' : 'Use sample picture', 'alt') : '<span class="muted">Sample picture in use</span>'}</div>`;
     return `<h2 style="margin-top:0">Pictures and wording</h2><div class="card"><form data-form="look">
       <label for="tg">Headline on the home page</label><input id="tg" name="tagline" maxlength="120" value="${esc(SET.tagline ?? '')}">
       <div class="row"><div><label for="pt">Promo banner title</label><input id="pt" name="promo_title" maxlength="80" value="${esc(SET.promo_title ?? '')}" placeholder="Have produce to sell?"></div>
       <div><label for="px">Promo banner text</label><input id="px" name="promo_text" maxlength="200" value="${esc(SET.promo_text ?? '')}"></div></div>
-      <h3 style="margin-top:1rem">Pictures</h3><p class="muted">Pick a picture for any slot, then save. Wide pictures under 3 MB work best. Produce without its own photo shows its category picture.</p>
-      <div class="slots">${IMG_SLOTS.map(slot).join('')}</div><button>Save pictures and wording</button></form></div>
+      <h3 style="margin-top:1rem">Pictures</h3><p class="muted">Pick a picture for any slot, then save. Images up to 10 MB are supported. Weather background videos may be MP4/WebM/MOV up to 30 MB. Produce without its own photo shows its category picture.</p>
+      <div class="slots">${IMG_SLOTS.map(slot).join('')}</div><div class="slot"><div class="thumb" style="background-image:${SET.weather_video_url ? cssUrl(SET.weather_video_url) : 'var(--img-weather)'}"></div><label for="weather_video_url">Weather background video (optional)</label><input id="weather_video_url" name="weather_video_url" type="file" accept="video/mp4,video/webm,video/quicktime">${SET.weather_video_url ? btn('imgoff', 'weather_video_url', 'Remove video', 'alt') : '<span class="muted">Use the weather image or default background</span>'}</div><button>Save pictures and wording</button></form></div>
       <h2>Fees and rules</h2><div class="card"><form data-form="sitesettings">
       <div class="row"><div><label for="s1">Delivery fee (UGX)</label><input id="s1" name="delivery_fee_ugx" type="number" min="0" max="50000" value="${esc(SET.delivery_fee_ugx ?? 3000)}"></div>
       <div><label for="s2">Platform fee (%)</label><input id="s2" name="platform_fee_pct" type="number" min="0" max="20" step="0.5" value="${esc(SET.platform_fee_pct ?? 5)}"></div>
@@ -806,7 +873,7 @@ $app.addEventListener('click', async e => {
     const rpc = (fn, args, msg) => run(sb.rpc(fn, args), msg);
     if (act === 'switch') return viewAuth(id);
     if (act === 'more') { SHOWN += 24; return route(); }
-    if (act === 'retry') return route();
+    if (act === 'retry') { if (me?.role === 'agent' && me.approval_status !== 'approved') await loadMe(); return route(); }
     if (act === 'imgoff') { await run(sb.rpc('admin_set_setting', { p_key: id, p_value: '' }), 'Picture reset'); await loadSettings(); return route(); }
     if (!me && ['tocart', 'wish', 'needlogin'].includes(act)) return needLogin();
     if (act === 'cat') { SHOWN = 24; F = { ...F0, category: id }; const same = location.hash === '#/market'; location.hash = '#/market'; if (same) route(); return; }
@@ -866,9 +933,23 @@ $app.addEventListener('click', async e => {
     else if (act === 'deliver') await rpc('rider_step', { p_order: id, p_to: 6 }, 'Marked delivered');
     else if (act === 'rate') await rpc('rate_order', { p_order: id, p_ratee: b.dataset.ratee, p_stars: +card.querySelector('select').value, p_comment: card.querySelector('textarea').value.trim() || null }, 'Thanks for rating');
     else if (act === 'setrole') await rpc('admin_set_role', { p_user: id, p_role: b.closest('tr').querySelector('select').value }, 'Role updated');
+    else if (act === 'approveagent') await rpc('admin_approve_agent', { p_user: id }, 'Village-agent account approved');
     else if (act === 'savelisting') { const tr = b.closest('tr'); const upd = { price_ugx: +tr.querySelector('[name=price]').value, qty_kg: +tr.querySelector('[name=qty]').value }; const ph = tr.querySelector('[name=photo]')?.files?.[0]; if (ph) upd.photo_url = await upload(ph, 'listing'); await run(sb.from('listings').update(upd).eq('listing_id', id), 'Listing updated'); }
     else if (act === 'listphotooff') { await run(sb.from('listings').update({ photo_url: null }).eq('listing_id', id), 'Photo removed'); }
-    else if (act === 'dellisting') { if (!confirm('Delete this listing? This cannot be undone.')) { b.disabled = false; return; } await run(sb.from('listings').delete().eq('listing_id', id), 'Listing deleted'); }
+    else if (act === 'dellisting') {
+      if (!confirm('Remove this listing from the marketplace? Existing order history will be preserved.')) { b.disabled = false; return; }
+      const linked = await sb.from('orders').select('order_id', { count: 'exact', head: true }).eq('listing_id', id);
+      if (linked.error) throw linked.error;
+      if ((linked.count || 0) > 0) {
+        await run(sb.from('listings').update({ qty_kg: 0 }).eq('listing_id', id), 'Listing hidden; its order history was preserved');
+      } else {
+        const del = await sb.from('listings').delete().eq('listing_id', id);
+        if (del.error && (del.error.code === '23503' || /orders_listing_id_fkey/i.test(del.error.message || ''))) {
+          await run(sb.from('listings').update({ qty_kg: 0 }).eq('listing_id', id), 'Listing hidden; its order history was preserved');
+        } else if (del.error) { toast(del.error.message, true); throw del.error; }
+        else toast('Listing removed');
+      }
+    }
     else if (act === 'delprice') await run(sb.from('market_prices').delete().eq('price_id', id), 'Price removed');
     else if (act === 'herooff') { await rpc('admin_set_setting', { p_key: 'hero_image_url', p_value: '' }, 'Picture reset'); await loadSettings(); }
     else if (act === 'decide') await rpc('admin_decide', { p_dispute: id, p_decision: b.dataset.d }, 'Decision recorded');
@@ -901,6 +982,7 @@ $app.addEventListener('submit', async e => {
     }
     else if (k === 'look') {
       for (const [key] of IMG_SLOTS) { const fl = f.elements[key]?.files?.[0]; if (fl) { const url = await upload(fl, 'site'); await run(sb.rpc('admin_set_setting', { p_key: key, p_value: url })); } }
+      const weatherVideo = f.elements.weather_video_url?.files?.[0]; if (weatherVideo) { const url = await upload(weatherVideo, 'weather-video'); await run(sb.rpc('admin_set_setting', { p_key: 'weather_video_url', p_value: url })); }
       for (const key of ['tagline', 'promo_title', 'promo_text']) if ((v[key] || '') !== (SET[key] || '')) await run(sb.rpc('admin_set_setting', { p_key: key, p_value: v[key] || '' }));
       await loadSettings(); toast('Saved');
     }
