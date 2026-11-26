@@ -24,7 +24,7 @@ await expectFail('buyer cannot list',B,`insert into listings(farmer_id,posted_by
 await expectFail('buyer direct update order table',B,`update orders set stage=7`);
 await expectFail('over-order',B,`select place_order($1,500,'delivery')`,[l]);
 const o=(await ok('place order',B,`select place_order($1,10,'delivery') as id`,[l])).rows[0].id;
-await expectFail('simulated payment failure',B,`select pay_order($1,true)`,[o]);
+await expectFail('declined payment (test)',B,`select pay_order($1,true)`,[o]);
 await ok('pay (escrow)',B,`select pay_order($1)`,[o]);
 await expectFail('other buyer cannot see order?',X,`select 1/(select count(*)::int from orders where order_id='${o}')`);
 await ok('farmer accept',F,`select farmer_step($1,3::smallint)`,[o]);

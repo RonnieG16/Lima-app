@@ -13,15 +13,11 @@
 <link rel="apple-touch-icon" href="icon-192.png">
 <style>
 :root{--deep:#0d3b2a;--leaf:#1f7a3a;--lime:#b8e04a;--sun:#ffb703;--bg:#f2f5ef;--card:#fff;--ink:#14201a;--hd:#0d3b2a;--lk:#1f7a3a;--field:#fff;--th:#f7faf4;--sk1:#e6ebe2;--sk2:#f4f7f1;--img-promo:var(--hero-default);--img-prices:none;--img-auth:var(--hero-img);--img-market:none;--img-weather:none;--img-admin:var(--hero-img);--img-footer:none;--muted:#5a695f;--line:#e0e6da;--bad:#c0392b;--g:var(--leaf);--g2:#e6f3df;--earth:#8a5a2b;--r:14px;
---hero-default:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 1200 520%27 preserveAspectRatio=%27xMidYMid slice%27%3E%3Cdefs%3E%3ClinearGradient id=%27a%27 x1=%270%27 y1=%270%27 x2=%270%27 y2=%271%27%3E%3Cstop offset=%270%27 stop-color=%27%23f6d98b%27/%3E%3Cstop offset=%27.55%27 stop-color=%27%23cfe7a6%27/%3E%3Cstop offset=%271%27 stop-color=%27%239fd06a%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%271200%27 height=%27520%27 fill=%27url%28%23a%29%27/%3E%3Ccircle cx=%27930%27 cy=%27130%27 r=%2770%27 fill=%27%23fff6cf%27 opacity=%27.9%27/%3E%3Cpath d=%27M0 300 Q300 230 600 290 T1200 260 V520 H0Z%27 fill=%27%236fb34a%27/%3E%3Cpath d=%27M0 350 Q320 290 640 345 T1200 320 V520 H0Z%27 fill=%27%234f9c3b%27/%3E%3Cpath d=%27M0 410 Q340 355 680 405 T1200 385 V520 H0Z%27 fill=%27%232f7d33%27/%3E%3Cpath d=%27M0 470 Q360 425 720 465 T1200 450 V520 H0Z%27 fill=%27%231f6a2c%27/%3E%3C/svg%3E");--hero-img:var(--hero-default);--sh:0 1px 2px rgba(13,59,42,.06),0 6px 18px rgba(13,59,42,.07);
---sh-hover:0 12px 32px rgba(13,59,42,.18),0 4px 12px rgba(13,59,42,.08);
---ring:0 0 0 3px rgba(184,224,74,.45)}
+--hero-default:url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 1200 520%27 preserveAspectRatio=%27xMidYMid slice%27%3E%3Cdefs%3E%3ClinearGradient id=%27a%27 x1=%270%27 y1=%270%27 x2=%270%27 y2=%271%27%3E%3Cstop offset=%270%27 stop-color=%27%23f6d98b%27/%3E%3Cstop offset=%27.55%27 stop-color=%27%23cfe7a6%27/%3E%3Cstop offset=%271%27 stop-color=%27%239fd06a%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%271200%27 height=%27520%27 fill=%27url%28%23a%29%27/%3E%3Ccircle cx=%27930%27 cy=%27130%27 r=%2770%27 fill=%27%23fff6cf%27 opacity=%27.9%27/%3E%3Cpath d=%27M0 300 Q300 230 600 290 T1200 260 V520 H0Z%27 fill=%27%236fb34a%27/%3E%3Cpath d=%27M0 350 Q320 290 640 345 T1200 320 V520 H0Z%27 fill=%27%234f9c3b%27/%3E%3Cpath d=%27M0 410 Q340 355 680 405 T1200 385 V520 H0Z%27 fill=%27%232f7d33%27/%3E%3Cpath d=%27M0 470 Q360 425 720 465 T1200 450 V520 H0Z%27 fill=%27%231f6a2c%27/%3E%3C/svg%3E");--hero-img:var(--hero-default);--sh:0 1px 2px rgba(13,59,42,.06),0 6px 18px rgba(13,59,42,.07)}
 *{box-sizing:border-box}
 :root[data-theme=dark]{color-scheme:dark;--bg:#0e1612;--card:#16221b;--ink:#e6efe8;--muted:#9bb0a2;--line:#273a2f;--g2:#1f3a2a;--leaf:#2a8f4c;--hd:#e8f5ec;--lk:#86dc9f;--field:#0f1a14;--th:#1b2a22;--sk1:#1d2b23;--sk2:#2a3c31;--sh:0 1px 2px rgba(0,0,0,.4),0 6px 18px rgba(0,0,0,.35)}
 html{scroll-behavior:smooth}
-body{margin:0;font:16px/1.55 'DM Sans',system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased;
-background-image:radial-gradient(ellipse 120% 80% at 10% -20%,rgba(184,224,74,.12),transparent 50%),radial-gradient(ellipse 80% 60% at 90% 10%,rgba(31,122,58,.08),transparent 45%);
-min-height:100vh}
+body{margin:0;font:16px/1.55 'DM Sans',system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}
 h1,h2,h3,.brand{font-family:'Bricolage Grotesque','DM Sans',system-ui,sans-serif;letter-spacing:-.01em}
 h2{font-size:1.35rem;margin:1.2rem 0 .7rem;color:var(--hd)}h3{margin:.2rem 0;font-size:1.05rem}
 a{color:var(--lk)}
@@ -32,10 +28,10 @@ header.top{background:var(--deep);color:#fff;position:sticky;top:0;z-index:20;bo
 .hs button{width:auto;margin:0;border-radius:0 999px 999px 0;background:var(--lime);color:var(--deep);padding:0 1.2rem}
 .env{font-size:.75rem;background:#ffffff1f;border-radius:999px;padding:.15rem .6rem;white-space:nowrap}
 nav{max-width:1180px;margin:0 auto;display:flex;gap:.35rem;padding:0 1rem .55rem;overflow-x:auto;scrollbar-width:none}
-nav a{color:#d9eadf;text-decoration:none;padding:.35rem .85rem;border-radius:999px;white-space:nowrap;font-weight:600;font-size:.93rem;min-height:36px;display:inline-flex;align-items:center;gap:.25rem;transition:background .2s,color .2s,transform .15s,box-shadow .2s}
-nav a:hover{background:#ffffff1a}nav a:hover{background:#ffffff22;color:#fff;transform:translateY(-1px)}nav a[aria-current]{background:var(--lime);color:var(--deep);box-shadow:0 4px 14px rgba(184,224,74,.35)}nav a[aria-current]:hover{background:#c8f05a;transform:translateY(-1px)}
+nav a{color:#d9eadf;text-decoration:none;padding:.35rem .85rem;border-radius:999px;white-space:nowrap;font-weight:600;font-size:.93rem;min-height:36px;display:inline-flex;align-items:center;transition:background .15s}
+nav a:hover{background:#ffffff1a}nav a[aria-current]{background:var(--lime);color:var(--deep)}
 .n{background:var(--sun);color:#222;border-radius:1rem;padding:0 .45rem;margin-left:.35rem;font-size:.75rem;font-weight:700}
-main{max-width:1180px;margin:0 auto;padding:1rem 1rem 3rem;min-height:70vh}main.enter{animation:in .35s cubic-bezier(.22,1,.36,1)}
+main{max-width:1180px;margin:0 auto;padding:1rem 1rem 3rem;min-height:70vh}main.enter{animation:in .28s ease-out}
 @keyframes in{from{opacity:.0;transform:translateY(6px)}to{opacity:1;transform:none}}
 footer{background:linear-gradient(#0d3b2aeb,#0d3b2aeb),var(--img-footer) center/cover,var(--deep);color:#b9d3c3;padding:1.6rem 1rem;text-align:center;font-size:.9rem}footer a{color:var(--lime)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:1rem;margin:.7rem 0;box-shadow:var(--sh)}
@@ -43,7 +39,7 @@ footer{background:linear-gradient(#0d3b2aeb,#0d3b2aeb),var(--img-footer) center/
 label{display:block;font-weight:600;margin:.55rem 0 .2rem;font-size:.92rem}
 input,select,textarea,button{font:inherit;padding:.6rem .75rem;border:1px solid #b9c4b4;border-radius:10px;width:100%;min-height:44px;background:var(--field);color:var(--ink)}
 input:focus,select:focus,textarea:focus{border-color:var(--leaf);box-shadow:0 0 0 3px #1f7a3a22;outline:0}
-button{background:var(--leaf);color:#fff;border:0;font-weight:700;cursor:pointer;margin-top:.5rem;transition:transform .15s ease,background .2s,box-shadow .2s,filter .2s;box-shadow:0 2px 8px rgba(31,122,58,.25)}button:hover{background:#269645;transform:translateY(-2px);box-shadow:0 6px 18px rgba(31,122,58,.35)}button:active{transform:translateY(0) scale(.97);box-shadow:0 2px 6px rgba(31,122,58,.2)}button.alt{background:transparent;color:var(--leaf);border:2px solid var(--leaf);box-shadow:none}button.alt:hover{background:var(--g2);transform:translateY(-2px);box-shadow:0 4px 12px rgba(31,122,58,.12)}
+button{background:var(--leaf);color:#fff;border:0;font-weight:700;cursor:pointer;margin-top:.5rem;transition:transform .12s,background .15s}
 button:hover{background:#17652f}button:active{transform:scale(.98)}
 button.alt{background:transparent;color:var(--lk);border:1px solid var(--lk)}button.alt:hover{background:var(--g2)}
 button.danger{background:var(--bad)}button:disabled{opacity:.5;cursor:default}
@@ -60,17 +56,17 @@ td input,td select{min-height:36px;padding:.3rem .5rem}td button{margin:0;min-he
 .hero-in{padding:clamp(1.6rem,6vw,3.6rem) clamp(1.2rem,4vw,3rem);max-width:680px}
 .hero h1{font-size:clamp(1.9rem,5.2vw,3.2rem);line-height:1.05;margin:.2rem 0 .6rem}.hero p{margin:0 0 1rem;color:#e3f1e8;font-size:1.05rem}
 .hsearch{display:none;max-width:520px}.hsearch input{border-radius:999px 0 0 999px;border:0;min-height:48px}.hs input,.hsearch input{background:#fff;color:#14201a}.hsearch button{width:auto;margin:0;border-radius:0 999px 999px 0;background:var(--lime);color:var(--deep);padding:0 1.4rem}
-.chips{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}.chips button{width:auto;margin:0;min-height:38px;background:#ffffff22;color:#fff;border:1px solid #ffffff44;border-radius:999px;padding:.3rem .9rem;backdrop-filter:blur(4px);transition:background .2s,transform .15s,box-shadow .2s}.chips button:hover{background:#ffffff40;transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.15)}
+.chips{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}.chips button{width:auto;margin:0;min-height:38px;background:#ffffff22;color:#fff;border:1px solid #ffffff44;border-radius:999px;padding:.3rem .9rem;backdrop-filter:blur(4px)}.chips button:hover{background:#ffffff40}
 .trust{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.7rem;margin:.4rem 0 .6rem}.trust div{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:.8rem 1rem;box-shadow:var(--sh)}.trust b{display:block;color:var(--hd)}
 .sec-h{display:flex;justify-content:space-between;align-items:baseline}.sec-h a{font-weight:700;text-decoration:none}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1rem}.grid>.card{margin:0}
-.lc{padding:0;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .25s ease,transform .25s ease,border-color .2s;border:1px solid transparent}.lc:hover{box-shadow:var(--sh-hover);transform:translateY(-4px);border-color:rgba(31,122,58,.15)}.lc .im img{transition:transform .4s ease}.lc:hover .im img{transform:scale(1.06)}
+.lc{padding:0;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .2s}.lc:hover{box-shadow:0 10px 28px rgba(13,59,42,.16)}
 .lc .im{aspect-ratio:4/3;background:linear-gradient(135deg,#dff0cf,#bfe0a0);display:grid;place-items:center;font-size:3rem;overflow:hidden;position:relative}.lc .im img{width:100%;height:100%;object-fit:cover}
 .lc .im .km{position:absolute;left:.5rem;bottom:.5rem;background:#0d3b2acc;color:#fff;font-size:.75rem;border-radius:999px;padding:.1rem .6rem}
 .lc .lb{padding:.8rem;display:flex;flex-direction:column;gap:.15rem;flex:1}.lc .pr{font-size:1.15rem;font-weight:800;color:var(--hd)}.lc .pr small{font-weight:500;color:var(--muted)}
 .lc .row{margin-top:auto;padding-top:.5rem}.lc .row button{margin:0;min-height:38px;padding:.3rem .5rem}
 img.ph{width:100%;max-height:340px;object-fit:cover;border-radius:12px}
-.prices{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.6rem}.prices div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.6rem .8rem;transition:transform .22s ease,box-shadow .22s,border-color .2s;cursor:default}.prices div:hover{transform:translateY(-5px);box-shadow:var(--sh-hover);border-color:var(--leaf)}.prices b{display:block;font-size:1.05rem;color:var(--hd)}.prices small{display:block;max-height:0;overflow:hidden;opacity:0;color:var(--muted);transition:max-height .2s,opacity .2s}.prices div:hover small{max-height:1.5em;opacity:1}
+.prices{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.6rem}.prices div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.6rem .8rem;transition:transform .18s,box-shadow .18s,border-color .18s;cursor:default}.prices div:hover{transform:translateY(-4px);box-shadow:0 10px 24px rgba(13,59,42,.18);border-color:var(--leaf)}.prices b{display:block;font-size:1.05rem;color:var(--hd)}.prices small{display:block;max-height:0;overflow:hidden;opacity:0;color:var(--muted);transition:max-height .2s,opacity .2s}.prices div:hover small{max-height:1.5em;opacity:1}
 .sk{background:linear-gradient(100deg,var(--sk1) 30%,var(--sk2) 50%,var(--sk1) 70%) 0 0/300% 100%;animation:sh 1.3s linear infinite;border-radius:8px}
 @keyframes sh{to{background-position:-150% 0}}
 .sk-img{aspect-ratio:4/3;border-radius:0}.sk-l{height:14px;margin:.45rem 0}.w40{width:40%}.w70{width:70%}.w90{width:90%}.sk-hero{height:240px;border-radius:20px;margin-bottom:1rem}.sk-tile{height:92px;border-radius:var(--r)}
@@ -82,8 +78,8 @@ img.ph{width:100%;max-height:340px;object-fit:cover;border-radius:12px}
 @keyframes pulse{50%{opacity:.25}}
 .adm{display:grid;grid-template-columns:200px minmax(0,1fr);gap:1rem;align-items:start}
 .side{display:flex;flex-direction:column;gap:.2rem;position:sticky;top:104px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:.5rem;box-shadow:var(--sh);overflow:visible}
-.side a{color:var(--ink);padding:.5rem .8rem;border-radius:10px;font-weight:600;min-height:40px;transition:background .2s,color .2s,transform .15s,padding-left .2s}.side a:hover{background:var(--g2);transform:translateX(3px)}.side a[aria-current]{background:var(--deep);color:#fff;box-shadow:0 4px 12px rgba(13,59,42,.25)}.side a[aria-current]:hover{transform:none}
-.stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:.8rem}.stat{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:.9rem 1rem;box-shadow:var(--sh);border-top:4px solid var(--leaf);transition:transform .2s,box-shadow .25s}.stat:hover{transform:translateY(-3px);box-shadow:var(--sh-hover)}
+.side a{color:var(--ink);padding:.5rem .8rem;border-radius:10px;font-weight:600;min-height:40px}.side a:hover{background:var(--g2)}.side a[aria-current]{background:var(--deep);color:#fff}
+.stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:.8rem}.stat{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:.9rem 1rem;box-shadow:var(--sh);border-top:4px solid var(--leaf)}
 .stat span{color:var(--muted);font-size:.85rem}.stat b{display:block;font-family:'Bricolage Grotesque',sans-serif;font-size:1.7rem;color:var(--hd)}.stat.warn{border-top-color:var(--sun)}.stat.bad{border-top-color:var(--bad)}
 .bars{display:flex;align-items:flex-end;gap:.6rem;height:170px;padding-top:1rem}.bars div{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;font-size:.78rem;color:var(--muted)}
 .bars b{display:block;width:100%;max-width:46px;background:linear-gradient(var(--leaf),var(--lime));border-radius:8px 8px 0 0;min-height:3px;transition:height .5s}.bars em{font-style:normal;font-weight:700;color:var(--hd)}
@@ -100,7 +96,7 @@ body.big{font-size:20px}#banner{background:var(--sun);color:#3d2a00;padding:.5re
 .shop{display:grid;grid-template-columns:270px minmax(0,1fr);gap:1.2rem;align-items:start}.filters{position:sticky;top:112px;margin:0}.filters h3{margin-bottom:.4rem}
 .catl{display:flex;flex-direction:column;gap:.3rem;margin-bottom:.6rem}.catl button{margin:0;text-align:left;min-height:38px}.catl button.on{background:var(--leaf);color:#fff;border-color:var(--leaf)}
 .cattiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.8rem}
-.ct{margin:0;min-height:130px;border-radius:var(--r);display:flex;align-items:flex-end;justify-content:flex-start;color:#fff;font-size:1.05rem;font-family:'Bricolage Grotesque',sans-serif;background:#2a8f4c center/cover;transition:transform .25s ease,box-shadow .25s ease,filter .25s;text-shadow:0 1px 6px #0008;box-shadow:0 4px 14px rgba(13,59,42,.12)}.ct:hover{transform:translateY(-5px) scale(1.02);box-shadow:0 14px 28px rgba(13,59,42,.22);filter:brightness(1.05)}.ct:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(13,59,42,.28)}
+.ct{margin:0;min-height:130px;border-radius:var(--r);display:flex;align-items:flex-end;justify-content:flex-start;color:#fff;font-size:1.05rem;font-family:'Bricolage Grotesque',sans-serif;background:#2a8f4c center/cover;transition:transform .18s,box-shadow .18s;text-shadow:0 1px 6px #0008}.ct:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(13,59,42,.28)}
 .promo{border-radius:20px;color:#fff;padding:clamp(1.4rem,4vw,2.4rem);margin:1.4rem 0;background:linear-gradient(95deg,#0d3b2af0,#0d3b2a88),var(--img-promo) center/cover}.promo h2{color:#fff;margin:0 0 .3rem}.promo p{max-width:520px;color:#e3f1e8}.promo button{width:auto;background:var(--lime);color:var(--deep);padding:0 1.4rem}
 .tbtn{width:42px;height:42px;min-height:42px;padding:0;margin:0;border-radius:50%;background:#ffffff1f;font-size:1.1rem}.tbtn:hover{background:#ffffff38}
 .slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:.8rem}.slot{border:1px solid var(--line);border-radius:12px;padding:.6rem}.slot .thumb{height:90px;border-radius:8px;background:#2a8f4c center/cover;margin-bottom:.4rem}.slot label{margin:.1rem 0}.slot input{min-height:36px;padding:.3rem}.slot button{min-height:34px;margin-top:.3rem}
@@ -122,46 +118,56 @@ body.big{font-size:20px}#banner{background:var(--sun);color:#3d2a00;padding:.5re
 .lc .row .btnlink button{width:100%}
 .lc .row button{white-space:normal;line-height:1.2}
 @keyframes limaCardIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-@keyframes btnPress{0%{transform:scale(1)}50%{transform:scale(.96)}100%{transform:scale(1)}}
-button:active{animation:btnPress .18s ease}
-.lc:nth-child(1){animation-delay:.05s}.lc:nth-child(2){animation-delay:.1s}.lc:nth-child(3){animation-delay:.15s}.lc:nth-child(4){animation-delay:.2s}.lc:nth-child(5){animation-delay:.25s}.lc:nth-child(6){animation-delay:.3s}
-@media(max-width:760px){
-  .shop{grid-template-columns:1fr}
-  .filters{position:static}
-  .hsearch{display:flex}
-  .tbtn{margin-left:auto}
-  .hs{display:none}
-  .env{display:none}
-  .bar{padding-bottom:.2rem}
-  .authwrap{grid-template-columns:1fr}
-  .authside{min-height:0}
-  .adm{grid-template-columns:1fr}
-  .side{position:static;flex-direction:row;overflow-x:auto}
-  .side a{white-space:nowrap}
-  .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:.55rem;align-items:start}
-  .lc{height:auto;min-height:0;border-radius:12px}
-  .lc .im{aspect-ratio:1/1;font-size:2.2rem}
-  .lc .lb{padding:.55rem .6rem .65rem;gap:.08rem}
-  .lc .lb h3{font-size:.95rem;line-height:1.2;margin:0}
-  .lc .pr{font-size:1rem}
-  .lc .muted{font-size:.78rem;line-height:1.25}
-  .lc .row{flex-direction:column;gap:.3rem;margin-top:.25rem;padding-top:.25rem}
-  .lc .row button{min-height:34px;font-size:.85rem;padding:.25rem .4rem}
-  .adm-hero{flex-direction:column;align-items:flex-start}
-}
-@media(max-width:380px){
-  .grid{grid-template-columns:1fr;gap:.7rem}
-  .lc .im{aspect-ratio:16/10}
-}
+@media(max-width:760px){.shop{grid-template-columns:1fr}.filters{position:static}.hsearch{display:flex}.tbtn{margin-left:auto}.hs{display:none}.env{display:none}.bar{padding-bottom:.2rem}.authwrap{grid-template-columns:1fr}.authside{min-height:0}.adm{grid-template-columns:1fr}.side{position:static;flex-direction:row;overflow-x:auto}.side a{white-space:nowrap}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem;align-items:start}.lc{height:auto;min-height:0}.lc .lb{flex:none}.lc .row{flex-direction:column}.adm-hero{flex-direction:column;align-items:flex-start}}
+/* v4: mobile cards, password toggle, logo card, motion and hover */
+.lc{animation:limaCardIn .45s backwards}
+.grid>.lc:nth-child(2){animation-delay:.05s}.grid>.lc:nth-child(3){animation-delay:.1s}.grid>.lc:nth-child(4){animation-delay:.15s}.grid>.lc:nth-child(5){animation-delay:.2s}.grid>.lc:nth-child(6){animation-delay:.25s}.grid>.lc:nth-child(n+7){animation-delay:.3s}
+.lc .row{flex-wrap:nowrap}.lc .row>*{flex:1 1 0;min-width:0}
+.lc .im img{transition:transform .35s}
+@media(max-width:760px){.lc .row{flex-direction:column}.lc .row>*{flex:0 0 auto;width:100%}.lc .row button,.lc .row .btnlink button{width:100%;min-height:40px}.lc .lb{padding:.65rem}.lc h3{font-size:.98rem}.lc .pr{font-size:1.02rem}.lc .muted{font-size:.84rem}}
+.pwwrap{position:relative;display:block}.pwwrap input{padding-right:3rem}
+.pwtoggle{position:absolute;right:.25rem;top:50%;transform:translateY(-50%);width:40px;height:40px;min-height:40px;margin:0;padding:0;background:transparent;color:var(--muted);border:0;display:grid;place-items:center;border-radius:8px}
+.pwtoggle:hover{background:var(--g2);color:var(--lk)}.pwtoggle:active{transform:translateY(-50%) scale(.9)}.pwtoggle svg{width:20px;height:20px}
+.logo-card{display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
+.logo-pic{width:84px;height:84px;flex:0 0 84px;border-radius:50%;overflow:hidden;background:var(--g2);border:3px solid var(--leaf);display:grid;place-items:center}.logo-pic img{width:100%;height:100%;object-fit:cover}
+.logo-card .acts{display:flex;gap:.5rem;flex-wrap:wrap}.logo-card .acts button{width:auto;margin:0}
+.filebtn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 1rem;border-radius:10px;background:var(--leaf);color:#fff;font-weight:700;cursor:pointer;margin:0;transition:background .15s,transform .12s}.filebtn:hover{background:#17652f}.filebtn:active{transform:scale(.97)}
+.colors{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:.6rem}.colors input[type=color]{padding:.15rem;min-height:44px}
+@keyframes limaPop{0%{transform:scale(.6)}60%{transform:scale(1.15)}100%{transform:scale(1)}}
+.n{animation:limaPop .45s}
+.hero h1,.hero p,.chips button{animation:limaCardIn .55s backwards}.hero p{animation-delay:.08s}.chips button:nth-child(2){animation-delay:.05s}.chips button:nth-child(3){animation-delay:.1s}.chips button:nth-child(4){animation-delay:.15s}.chips button:nth-child(n+5){animation-delay:.2s}
+button{transition:transform .12s,background .15s,box-shadow .2s}button:active{transform:scale(.96)}.lc:active{transform:scale(.985)}nav a:active{transform:scale(.95)}
+.card,.stat,.trust div,.slot{transition:transform .2s,box-shadow .2s,border-color .2s}
+@media(hover:hover){.lc:hover{transform:translateY(-4px)}.lc:hover .im img{transform:scale(1.06)}.card:not(.lc):hover,.slot:hover{box-shadow:0 8px 22px rgba(13,59,42,.13)}.stat:hover,.trust div:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(13,59,42,.16)}nav a:hover{transform:translateY(-1px)}button:not(.alt):not(.pwtoggle):not(.tbtn):hover{box-shadow:0 5px 14px rgba(13,59,42,.28)}tr:hover td{background:var(--g2)}}
+/* v5: clearer dark theme */
+:root[data-theme=dark]{--bg:#0d1813;--card:#1a2b22;--line:#33503f;--th:#21362a;--g2:#244233;--muted:#a9bfb0}
+:root[data-theme=dark] .tag.bad{background:#4d211d;color:#ffb4ab}:root[data-theme=dark] .tag.warn{background:#4d3b0f;color:#ffd98a}
+:root[data-theme=dark] .trust div,:root[data-theme=dark] .stat{background:var(--card)}
+/* v6: produce status badges, phone dropdown menu, extra breakpoints */
+.sbadge{position:absolute;left:.5rem;top:.5rem;z-index:1;border-radius:999px;padding:.12rem .65rem;font-size:.75rem;font-weight:700;background:#1f7a3a;color:#fff;box-shadow:0 2px 8px #0003}.sbadge.low{background:#ffb703;color:#3d2a00}.sbadge.sold{background:#b83a2e}.sbadge.hide{background:#5a695f}
+.lc.soldout .im img,.lc.soldout .im span:not(.sbadge):not(.km){filter:grayscale(1);opacity:.65}.lc.soldout .pr{color:var(--muted)}
+button.soldbtn,button.soldbtn:hover{background:#8a9a8f;cursor:not-allowed;box-shadow:none}
+.mbtn{display:none;position:relative}
+.hbar,.hbar:before,.hbar:after{display:block;width:20px;height:2px;border-radius:2px;background:#fff;transition:transform .25s,opacity .2s,background .2s}
+.hbar{position:relative}.hbar:before,.hbar:after{content:'';position:absolute;left:0}.hbar:before{top:-6px}.hbar:after{top:6px}
+header.top.open .hbar{background:transparent}header.top.open .hbar:before{transform:translateY(6px) rotate(45deg)}header.top.open .hbar:after{transform:translateY(-6px) rotate(-45deg)}
+.mbtn .n{position:absolute;top:-3px;right:-3px;margin:0}
+img,video{max-width:100%}
+@media(min-width:761px) and (max-width:1000px){.shop{grid-template-columns:220px minmax(0,1fr)}.grid{grid-template-columns:repeat(auto-fill,minmax(190px,1fr))}}
+@media(max-width:760px){.mbtn{display:grid;place-items:center;margin-left:0}
+ nav{position:absolute;left:0;right:0;top:100%;max-width:none;margin:0;flex-direction:column;gap:.15rem;background:var(--deep);padding:.4rem 1rem .8rem;max-height:0;overflow:hidden;visibility:hidden;opacity:0;transform:translateY(-8px);transition:max-height .3s ease,opacity .2s,transform .25s,visibility 0s .3s;box-shadow:0 14px 24px rgba(0,0,0,.28);border-top:1px solid #ffffff1a}
+ header.top.open nav{max-height:calc(100vh - 70px);overflow-y:auto;visibility:visible;opacity:1;transform:none;transition-delay:0s}
+ nav a{min-height:46px;padding:.5rem .9rem;border-radius:12px;font-size:1rem;justify-content:flex-start}nav a:after{content:'›';margin-left:auto;opacity:.6;font-size:1.2rem}nav a .n{margin-left:.5rem}}
+@media(max-width:480px){.brand{font-size:1.3rem}.bar{gap:.5rem;padding:.5rem .75rem}main{padding:.75rem .75rem 3rem}h2{font-size:1.2rem}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-in{padding:1.4rem 1.1rem}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.ticker{overflow-x:auto}}
 @media print{header,footer,#toast,.noprint{display:none!important}body{background:#fff}.card{border:0;box-shadow:none}}
 </style>
 </head>
 <body>
-<header class="top"><div class="bar"><a class="brand" href="#/" aria-label="Lima home"><img id='brand-logo' src='icon-192.png' alt='' width='32' height='32'><span>Lima</span></a><form id="hsearch" class="hs" role="search"><input name="q" placeholder="Search maize, beans, matooke…" aria-label="Search produce"><button aria-label="Search">Search</button></form><span class="env" title="Fictitious data and test-mode payments">Sandbox</span><button id="themebtn" class="tbtn" type="button" aria-label="Switch theme">🌙</button></div><nav id="nav" aria-label="Main"></nav></header>
+<header class="top"><div class="bar"><a class="brand" href="#/" aria-label="Lima home"><img id='brand-logo' src='icon-192.png' alt='' width='32' height='32'><span id='brand-name'>Lima</span></a><form id="hsearch" class="hs" role="search"><input name="q" placeholder="Search maize, beans, matooke…" aria-label="Search produce"><button aria-label="Search">Search</button></form><span class="env" id="envtag" title="Fictitious data and test-mode payments">Sandbox</span><button id="themebtn" class="tbtn" type="button" aria-label="Switch theme">🌙</button><button id="menubtn" class="tbtn mbtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span class="hbar" aria-hidden="true"></span><span class="n" id="menubadge" hidden></span></button></div><nav id="nav" aria-label="Main"></nav></header>
 <div id="banner" role="status"></div>
 <main id="app" tabindex="-1"><div class="sk sk-hero"></div><div class="grid"><div class="card lc"><div class="sk sk-img"></div><div class="lb"><div class="sk sk-l w70"></div><div class="sk sk-l w40"></div></div></div><div class="card lc"><div class="sk sk-img"></div><div class="lb"><div class="sk sk-l w70"></div><div class="sk sk-l w40"></div></div></div><div class="card lc"><div class="sk sk-img"></div><div class="lb"><div class="sk sk-l w70"></div><div class="sk sk-l w40"></div></div></div><div class="card lc"><div class="sk sk-img"></div><div class="lb"><div class="sk sk-l w70"></div><div class="sk sk-l w40"></div></div></div></div></main>
-<footer>Lima: fresh produce from Ugandan farmers, paid only when it arrives. Sandbox with fictitious data and test-mode payments. <a href="#/market">Browse the market</a></footer>
+<footer id="foot">Lima: fresh produce from Ugandan farmers, paid only when it arrives. Sandbox with fictitious data and test-mode payments. <a href="#/market">Browse the market</a></footer>
 <div id="toast" role="status" aria-live="polite"></div>
 <script src="config.js"></script>
 <script type="module">
@@ -257,7 +263,26 @@ async function loadSettings() {
   root.setProperty('--img-admin', SET.img_admin ? cssUrl(SET.img_admin) : 'var(--hero-img)');
   root.setProperty('--img-footer', SET.img_footer ? cssUrl(SET.img_footer) : 'none');
   root.setProperty('--img-auth', SET.img_auth ? cssUrl(SET.img_auth) : 'var(--hero-img)');
+  applyBranding();
   document.documentElement.style.setProperty('--hero-img', SET.hero_image_url ? `url("${SET.hero_image_url.replace(/["\\]/g, '')}")` : 'var(--hero-default)');
+}
+const DEFAULT_FOOTER = 'Lima: fresh produce from Ugandan farmers, paid only when it arrives. Sandbox with fictitious data and test-mode payments.';
+function applyBranding() {   // app name, colours and the installable-app icon follow the admin's settings
+  const root = document.documentElement.style, nm = SET.app_name || 'Lima', hex = /^#[0-9a-f]{6}$/i;
+  const lab = SET.env_label ?? 'Sandbox', ev = document.getElementById('envtag'); if (ev) { ev.textContent = lab; ev.hidden = !lab; }
+  const ft = document.getElementById('foot'); if (ft) ft.innerHTML = esc(SET.footer_text ?? DEFAULT_FOOTER) + ' <a href="#/market">Browse the market</a>';
+  const bn = document.getElementById('brand-name'); if (bn) bn.textContent = nm;
+  document.title = nm + ' – farmers to buyers';
+  for (const [k, v] of [['color_deep', '--deep'], ['color_leaf', '--leaf'], ['color_lime', '--lime']]) { if (hex.test(SET[k] || '')) root.setProperty(v, SET[k]); else root.removeProperty(v); }
+  const tc = document.querySelector('meta[name=theme-color]'); if (tc && hex.test(SET.color_deep || '')) tc.content = SET.color_deep;
+  const ml = document.querySelector('link[rel=manifest]');
+  if (ml && SET.logo_url) {
+    try {
+      const base = new URL('./', location.href).href, ext = (SET.logo_url.split('?')[0].split('.').pop() || 'png').toLowerCase(), type = ext === 'jpg' ? 'image/jpeg' : 'image/' + ext;
+      const m = { name: nm + ' – farmers to buyers', short_name: nm, start_url: base + 'index.html', scope: base, display: 'standalone', background_color: '#faf6ee', theme_color: SET.color_deep || '#0d3b2a', icons: [{ src: SET.logo_url, sizes: '512x512', type }, { src: SET.logo_url, sizes: '192x192', type }] };
+      ml.href = URL.createObjectURL(new Blob([JSON.stringify(m)], { type: 'application/manifest+json' }));
+    } catch {}
+  } else if (ml && ml.href.startsWith('blob:')) ml.href = 'manifest.webmanifest';
 }
 let chan = null;
 function subscribeAlerts() {   // live alerts: toast now, and a phone notification if the person allowed it
@@ -265,6 +290,7 @@ function subscribeAlerts() {   // live alerts: toast now, and a phone notificati
   if (!me) return;
   chan = sb.channel('n-' + me.user_id).on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'notifications', filter: 'user_id=eq.' + me.user_id }, p => {
     toast(p.new.message); nav();
+    if (me?.role === 'agent' && me.approval_status !== 'approved' && /approved/i.test(p.new.message)) loadMe().then(route);
     if ('Notification' in window && Notification.permission === 'granted' && document.hidden) { try { new Notification('Lima', { body: p.new.message, icon: 'icon-192.png' }); } catch {} }
   }).subscribe();
 }
@@ -291,6 +317,7 @@ async function nav() {
   } else l.push(['#/login', 'Sign in'], ['#/register', 'Create account']);
   const cur = location.hash || '#/';
   document.getElementById('nav').innerHTML = l.map(([h, t, n]) => `<a href="${h}" ${h === cur || (h === '#/admin' && cur.startsWith('#/admin')) ? 'aria-current="page"' : ''}>${t}${n ? `<span class="n">${n}</span>` : ''}</a>`).join('');
+  const mb = document.getElementById('menubadge'); if (mb) { mb.textContent = unread; mb.hidden = !unread; }
 }
 let NEXT = null;
 const skel = (n = 4) => '<div class="grid">' + '<div class="card lc"><div class="sk sk-img"></div><div class="lb"><div class="sk sk-l w70"></div><div class="sk sk-l w40"></div><div class="sk sk-l w90"></div></div></div>'.repeat(n) + '</div>';
@@ -317,70 +344,65 @@ const art = (cat, emoji) => { const [a, b] = CATBG[cat] || CATBG.Other;
 const cssUrl = u => "url('" + String(u).replace(/['"\\\s]/g, '') + "')";
 const catImg = c => SET[CATKEY[c]] || art(c);
 const listImg = l => l.photo_url || SET[CATKEY[l.category]] || art(l.category, (EMO.find(([k]) => String(l.produce).toLowerCase().includes(k)) || [])[1]);
-const IMG_SLOTS = [['logo_url', 'App logo (header and browser icon)', 'url(\"icon-192.png\")'], ['hero_image_url', 'Home page background', 'var(--hero-default)'], ['img_promo', 'Promo banner', 'var(--hero-default)'], ['img_prices', 'Price ticker background', 'none'], ['img_auth', 'Sign-in side picture', 'var(--hero-default)'], ['img_market', 'Market page banner (top of the market)', 'none'], ['img_weather', 'Weather page banner', 'none'], ['img_admin', 'Admin dashboard header', 'var(--hero-default)'], ['img_footer', 'Footer background', 'none'],
+const IMG_SLOTS = [['hero_image_url', 'Home page background', 'var(--hero-default)'], ['img_promo', 'Promo banner', 'var(--hero-default)'], ['img_prices', 'Price ticker background', 'none'], ['img_auth', 'Sign-in side picture', 'var(--hero-default)'], ['img_market', 'Market page banner (top of the market)', 'none'], ['img_weather', 'Weather page banner', 'none'], ['img_admin', 'Admin dashboard header', 'var(--hero-default)'], ['img_footer', 'Footer background', 'none'],
   ...CATS.map(c => [CATKEY[c], c + ' (tile and default produce picture)', null, c])];
 const tickerHtml = () => PRICES.length ? `<div class="ticker" aria-label="Market prices, scrolling"><div class="trk">${[0, 1].map(() => PRICES.map(p => `<span class="ti" title="Updated ${esc(p.as_of)}"><b>${esc(p.produce)}</b> ${ugx(p.avg_price_ugx)}/kg</span>`).join('')).join('')}</div></div>` : '';
 let SHOWN = 24;
 const stepBar = s => `<div class="steps" aria-label="Stage ${s} of 7: ${STAGES[s-1]}">${STAGES.map((_, i) => `<i class="${i < s ? 'on' : ''}"></i>`).join('')}</div>`;
 const btn = (act, id, text, cls = '', extra = '') => `<button type="button" class="${cls}" data-act="${act}" data-id="${esc(id)}" ${extra}>${text}</button>`;
 
-// ---------- pay with mobile money (Flutterwave, via the pay-start edge function)
-// The browser never marks an order as paid. pay-start asks Flutterwave for the charge; the pay-webhook function
-// moves the order to "Paid (escrow)" after Flutterwave confirms. This window just waits and watches the order.
+// ---------- pay with mobile money (Pesapal hosted checkout, via the pay-start edge function)
+// The browser never marks an order as paid. pay-start creates a Pesapal checkout; the pay-webhook function
+// moves the order to "Paid (escrow)" after Pesapal confirms. This window just waits and watches the order.
 function openPay(orders, onPaid) {
   const queue = (Array.isArray(orders) ? orders : [orders]).map(o => ({ id: o.id, total_ugx: +o.total_ugx || 0 }));
   document.getElementById('pay-modal')?.remove();
   const wrap = document.createElement('div'); wrap.id = 'pay-modal'; wrap.className = 'paybg';
-  wrap.innerHTML = '<div class="card" role="dialog" aria-modal="true" aria-label="Pay with mobile money"><div class="sub"><h3>Pay with mobile money</h3><button type="button" class="alt xbtn" id="pay-x" aria-label="Close">✕</button></div><div id="pay-body"></div></div>';
+  wrap.innerHTML = '<div class="card" role="dialog" aria-modal="true" aria-label="Pay with Pesapal"><div class="sub"><h3>Pay with Pesapal</h3><button type="button" class="alt xbtn" id="pay-x" aria-label="Close">✕</button></div><div id="pay-body"></div></div>';
   document.body.appendChild(wrap);
   const body = wrap.querySelector('#pay-body');
-  let timer = null, i = 0, phoneNo = '', net = 'MTN';
+  let timer = null, i = 0;
   const sum = () => queue.slice(i).reduce((a, o) => a + o.total_ugx, 0);
   const stop = () => { if (timer) clearInterval(timer); timer = null; };
   const close = () => { stop(); wrap.remove(); };
-  const guess = p => /^0?(70|74|75)/.test(p.replace(/\D/g, '').replace(/^256/, '')) ? 'AIRTEL' : 'MTN';
   wrap.querySelector('#pay-x').onclick = () => { close(); route(); };
 
   function showForm(msg) {
     stop();
     const left = queue.length - i;
-    body.innerHTML = `<p style="margin:.6rem 0">${queue.length > 1 ? left + ' order' + (left > 1 ? 's' : '') + ' to pay · ' : ''}Amount: <b>${ugx(sum())}</b></p>
-      ${queue.length > 1 ? '<p class="muted" style="margin:0 0 .4rem">Each farmer’s order is paid separately, so you will approve one payment per order.</p>' : ''}
-      <label for="pay-phone">Mobile money number</label>
-      <input id="pay-phone" type="tel" inputmode="numeric" placeholder="0771234567" autocomplete="tel" value="${esc(phoneNo)}">
-      <label for="pay-net">Network</label>
-      <select id="pay-net"><option value="MTN" ${net === 'MTN' ? 'selected' : ''}>MTN Mobile Money</option><option value="AIRTEL" ${net === 'AIRTEL' ? 'selected' : ''}>Airtel Money</option></select>
+    body.innerHTML = `<p style="margin:.6rem 0">Amount: <b>${ugx(sum())}</b></p>
+      ${queue.length > 1 ? `<p class="muted" style="margin:0 0 .4rem">${left} order${left > 1 ? 's' : ''} to pay. Each order is checked out separately.</p>` : ''}
       ${msg ? `<p class="tag bad" style="margin:.5rem 0 0">${esc(msg)}</p>` : ''}
-      <button type="button" id="pay-go">Pay ${ugx(sum())}</button>
-      <p class="muted" style="margin:.6rem 0 0">Test mode, no real money.</p>`;
-    body.querySelector('#pay-phone').oninput = e => { if (e.target.value.replace(/\D/g, '').length >= 3) body.querySelector('#pay-net').value = guess(e.target.value); };
-    body.querySelector('#pay-go').onclick = () => { phoneNo = body.querySelector('#pay-phone').value.trim(); net = body.querySelector('#pay-net').value; body.querySelector('#pay-go').disabled = true; charge(); };
+      <button type="button" id="pay-go">Continue to Pesapal secure checkout</button>
+      <p class="muted" style="margin:.6rem 0 0">Pesapal sandbox checkout. Payment details are entered on Pesapal, not stored by Lima.</p>`;
+    body.querySelector('#pay-go').onclick = () => { body.querySelector('#pay-go').disabled = true; charge(); };
   }
   async function charge() {
-    const { data, error } = await sb.functions.invoke('pay-start', { body: { order_id: queue[i].id, phone: phoneNo, network: net } });
+    const { data, error } = await sb.functions.invoke('pay-start', { body: { order_id: queue[i].id } });
     if (error) {
-      let m = 'Could not start the payment. Please try again.';
+      let m = 'Could not start the Pesapal checkout. Please try again.';
       try { const j = await error.context.json(); if (j.error) m = j.error; } catch {}
       return showForm(m);
     }
-    showWaiting(data?.redirect);
+    if (!data?.redirect) return showForm('Pesapal did not return a checkout link. Please try again.');
+    showWaiting(data.redirect);
   }
   function showWaiting(link) {
     const of = queue.length > 1 ? ` <span class="muted">(order ${i + 1} of ${queue.length}, ${ugx(queue[i].total_ugx)})</span>` : '';
     body.innerHTML = `<p style="margin:.6rem 0 .3rem"><b>Waiting for approval…</b>${of}</p>
-      ${link ? `<p class="muted" style="margin:0 0 .5rem">Tap the button to approve the payment with your mobile money provider, then come back to this window.</p><a class="btnlink" href="${esc(link)}" target="_blank" rel="noopener"><button type="button">Continue to approve payment</button></a>`
-             : '<p class="muted" style="margin:0">Enter your mobile money PIN when the prompt appears on your phone.</p>'}
+      ${link ? `<p class="muted" style="margin:0 0 .5rem">Continue to Pesapal’s hosted checkout, choose a supported payment method, complete payment there, then return to Lima.</p><a class="btnlink" href="${esc(link)}" target="_blank" rel="noopener"><button type="button">Continue to approve payment</button></a>`
+             : '<p class="muted" style="margin:0">Complete the payment on Pesapal’s secure checkout page, then return to this window.</p>'}
       <p class="muted" style="margin:.6rem 0 0">Keep this window open. It updates by itself.</p>`;
     let tries = 0;
     stop();
     timer = setInterval(async () => {
       tries++;
-      const { data } = await sb.from('orders').select('stage,status').eq('order_id', queue[i].id).single();
-      if (data?.stage >= 2) {
+      const { data } = await sb.from('orders').select('payment_status,stage').eq('order_id', queue[i].id).single();
+      if (data?.payment_status === 'paid' || data?.stage >= 2) {
         stop();
         if (i < queue.length - 1) { i++; charge(); } else { showReceipt(data); if (onPaid) onPaid(); }
       }
-      else if (data?.status === 'cancelled') showForm('The payment was declined or cancelled. You can try again.');
+      else if (data?.payment_status === 'failed') showForm('The payment was declined or cancelled. You can try again.');
       else if (tries > 60) showForm('No response yet. If you approved the payment, wait a moment and check your orders. Otherwise try again.');
     }, 3000);
   }
@@ -388,7 +410,7 @@ function openPay(orders, onPaid) {
     const all = queue.reduce((a, o) => a + o.total_ugx, 0);
     body.innerHTML = `<p style="margin:.6rem 0 .3rem"><span class="tag">Payment received</span></p>
       <p style="margin:.3rem 0">${ugx(all)} ${queue.length > 1 ? 'for ' + queue.length + ' orders is' : 'is'} held in escrow until you confirm delivery.</p>
-      ${queue.length === 1 ? `<p class="muted" style="margin:.3rem 0">Reference: ${esc(d?.thewton_txn_id || '')}</p>` : ''}<button type="button" id="pay-done">Done</button>`;
+      <button type="button" id="pay-done">Done</button>`;
     body.querySelector('#pay-done').onclick = () => { close(); route(); };
   }
   showForm();
@@ -484,20 +506,22 @@ async function enrich(rows) {
     l.fname = profs.find(p => p.user_id === l.farmer_id)?.name || 'Farmer'; l.dist = km(here, townInfo(l.town)?.c); l.wish = wish.has(l.listing_id); });
   return rows;
 }
-const cardHtml = l => `<article class="card lc">
-  <a class="im btnlink" href="#/listing/${esc(l.listing_id)}" aria-label="View ${esc(l.produce)}"><img loading="lazy" src="${esc(listImg(l))}" alt="${esc(l.produce)}">${l.dist != null ? `<span class="km">${Math.round(l.dist)} km</span>` : ''}</a>
+const statusOf = l => l.status === 'hidden' ? ['hide', 'Hidden'] : (l.status === 'sold_out' || Number(l.qty_kg) <= 0) ? ['sold', 'Sold out'] : Number(l.qty_kg) <= 20 ? ['low', 'Low stock'] : ['', 'Available'];
+const statusBadge = l => { const [c, t] = statusOf(l); return `<span class="sbadge ${c}">${t}</span>`; };
+const cardHtml = l => `<article class="card lc${l.status === 'sold_out' ? ' soldout' : ''}">
+  <a class="im btnlink" href="#/listing/${esc(l.listing_id)}" aria-label="View ${esc(l.produce)}">${statusBadge(l)}<img loading="lazy" src="${esc(listImg(l))}" alt="${esc(l.produce)}">${l.dist != null ? `<span class="km">${Math.round(l.dist)} km</span>` : ''}</a>
   <div class="lb"><h3>${esc(l.produce)}</h3><div class="pr">${ugx(l.price_ugx)}<small> /kg</small></div>
   <div class="muted">${esc(l.qty_kg)} kg · ${l.market ? esc(l.market) + ', ' : ''}${esc(l.town)}</div>
   <div class="muted">${esc(l.fname)} · ${l.nr ? '★ ' + l.avg.toFixed(1) + ' (' + l.nr + ')' : 'no ratings yet'}</div>
   <div class="row"><a class="btnlink" href="#/listing/${esc(l.listing_id)}"><button type="button" class="alt">View</button></a>
-  ${(!me || me.role === 'buyer') ? btn('tocart', l.listing_id, 'Add to cart') + (me ? btn('wish', l.listing_id, l.wish ? '♥' : '♡', 'alt', `aria-pressed="${l.wish}" aria-label="Save"`) : '') : ''}</div></div></article>`;
+  ${(!me || me.role === 'buyer') ? (l.status === 'sold_out' ? '<button type="button" class="soldbtn" disabled>Sold out</button>' : btn('tocart', l.listing_id, 'Add to cart')) + (me ? btn('wish', l.listing_id, l.wish ? '♥' : '♡', 'alt', `aria-pressed="${l.wish}" aria-label="Save"`) : '') : ''}</div></div></article>`;
 
 // ---------- home, prices, market
 async function loadPrices() { PRICES = await run(sb.from('market_prices').select('*').order('produce')); }
 async function viewHome(quiet) {
   if (!quiet) $app.innerHTML = '<div class="sk sk-hero"></div><div class="stats" style="margin-bottom:1rem">' + '<div class="sk sk-tile"></div>'.repeat(3) + '</div>' + skel(8);
   await loadPrices();
-  const rows = await enrich(await run(sb.from('listings').select('*').gt('qty_kg', 0).order('created_at', { ascending: false }).limit(8)));
+  const rows = await enrich(await run(sb.from('listings').select('*').eq('status', 'available').order('created_at', { ascending: false }).limit(8)));
   $app.innerHTML = `<section class="hero"><div class="hero-in">
    ${me ? `<div class="tag" style="background:#ffffff26;color:#fff">Hello, ${esc(me.name.split(' ')[0])}</div>` : ''}
    <h1>${esc(SET.tagline || 'Fresh from the farm. Paid only when it arrives.')}</h1>
@@ -537,7 +561,7 @@ async function viewMarket() {
    <div><label for="fs">Sort by</label><select id="fs" name="sort">${[['new', 'Newest'], ['cheap', 'Price: low to high'], ['dear', 'Price: high to low'], ['near', 'Nearest'], ['rated', 'Best rated']].map(([v, t]) => `<option value="${v}" ${F.sort === v ? 'selected' : ''}>${t}</option>`).join('')}</select></div></div>
    <div class="row"><button>Search</button><button type="button" class="alt" data-act="clear">Clear filters</button></div>
    <div class="row"><button type="button" class="alt" data-act="gps">📍 Use my location</button>${ORIGIN ? '<button type="button" class="alt" data-act="gpsoff">Use my profile town</button>' : ''}<button type="button" class="alt" data-act="mapview">${MAPVIEW ? '☰ Show list only' : '🗺 Show map'}</button></div></form></aside><section><div id="mapbox"></div><div id="results">${skel(8)}</div></section></div>`;
-  let q = sb.from('listings').select('*').gt('qty_kg', 0).order('created_at', { ascending: false });
+  let q = sb.from('listings').select('*').in('status', ['available', 'sold_out']).order('created_at', { ascending: false });
   if (F.produce) q = q.ilike('produce', '%' + F.produce.replace(/[%_]/g, '') + '%');
   if (F.category) q = q.eq('category', F.category);
   if (F.district) q = q.eq('district', F.district);
@@ -550,6 +574,7 @@ async function viewMarket() {
   const by = { cheap: (a, b) => a.price_ugx - b.price_ugx, dear: (a, b) => b.price_ugx - a.price_ugx,
     near: (a, b) => (a.dist ?? 1e9) - (b.dist ?? 1e9), rated: (a, b) => b.avg - a.avg }[F.sort];
   if (by) rows.sort(by);
+  rows.sort((a, z) => (a.status === 'sold_out') - (z.status === 'sold_out'));   // sold-out produce goes last
   document.getElementById('results').innerHTML = rows.length ? `<h2 style="margin-top:0">${F.category ? esc(F.category) : 'All produce'} <span class="muted">(${rows.length} item${rows.length > 1 ? 's' : ''})</span></h2><div class="grid">` + rows.slice(0, SHOWN).map(cardHtml).join('') + '</div>' + (rows.length > SHOWN ? `<p style="text-align:center"><button type="button" class="alt" style="width:auto;padding:0 2rem" data-act="more">Show more (${rows.length - SHOWN} left)</button></p>` : '')
     : '<div class="card">No listings match. Try a wider distance or fewer filters.</div>';
   const f = $app.querySelector('form'), fillMk = () => { f.elements.market.innerHTML = opts(marketsFor(f.elements.district.value, f.elements.town.value), '', 'Any'); };
@@ -584,11 +609,12 @@ async function drawMap(rows) {
 async function viewListing(id) {
   const l = await run(sb.from('listings').select('*').eq('listing_id', id).single());
   const [row] = await enrich([l]);
+  const avail = ['', 'low'].includes(statusOf(l)[0]), [sc, st] = statusOf(l);
   const revs = await run(sb.from('ratings').select('stars,comment').eq('ratee_id', l.farmer_id).not('comment', 'is', null).order('rating_id', { ascending: false }).limit(5));
   $app.innerHTML = `<h2>${esc(l.produce)}</h2><div class="card"><img class="ph" src="${esc(listImg(l))}" alt="${esc(l.produce)}">
-   <p>${CAT_ICON[l.category] || ''} ${esc(l.category)} · ${ugx(l.price_ugx)}/kg · ${esc(l.qty_kg)} kg available · harvested ${esc(l.harvest_date)}<br>
+   <p><span class="tag ${sc === 'sold' || sc === 'hide' ? 'bad' : sc === 'low' ? 'warn' : ''}">${st}</span> ${CAT_ICON[l.category] || ''} ${esc(l.category)} · ${ugx(l.price_ugx)}/kg · ${esc(l.qty_kg)} kg left · harvested ${esc(l.harvest_date)}<br>
    ${esc(row.fname)} · ${row.nr ? row.avg.toFixed(1) + ' ★ (' + row.nr + ')' : 'no ratings yet'} · ${esc(l.town)}, ${esc(l.district)}</p>
-   ${me?.role === 'buyer' ? `<form data-form="order" data-id="${esc(l.listing_id)}"><label for="q">Quantity (kg)</label>
+   ${me?.role === 'buyer' && !avail ? `<p class="tag bad">${esc(st)} right now. Save it and check back later.</p><p>${btn('wish', l.listing_id, row.wish ? '♥ Saved' : '♡ Save', 'alt', `aria-pressed="${row.wish}"`)}</p>` : me?.role === 'buyer' ? `<form data-form="order" data-id="${esc(l.listing_id)}"><label for="q">Quantity (kg)</label>
    <input id="q" name="qty" type="number" min="1" max="${l.qty_kg}" step="0.5" required value="1">
    <label for="m">Delivery or pickup</label><select id="m" name="mode"><option value="delivery">Delivery by rider (+${ugx(DELIVERY_FEE)})</option><option value="pickup">I will collect it</option></select>
    <p id="tot" class="tag"></p><p class="muted">Shown before you pay: produce + delivery fee. A ${FEE_PCT}% platform fee is taken from the farmer's payout when escrow is released.</p>
@@ -631,7 +657,9 @@ async function viewSell() {
    <div><label for="hd">Harvest date</label><input id="hd" name="harvest" type="date" max="${new Date().toISOString().slice(0, 10)}" required></div></div>
    ${locFields()}<label for="ph">Photo (optional, up to 10 MB)</label><input id="ph" name="photo" type="file" accept="image/*" capture="environment">
    <button>Publish listing</button></form></div>
-   <h2>My listings</h2>${mine.map(l => `<div class="card"><b>${esc(l.produce)}</b> · ${esc(l.qty_kg)} kg left · ${ugx(l.price_ugx)}/kg</div>`).join('') || '<p class="muted">None yet.</p>'}`;
+   <h2>My listings</h2>${mine.map(l => { const [c, t] = statusOf(l); return `<div class="card"><div class="sub"><b>${esc(l.produce)}</b><span class="tag ${c === 'sold' || c === 'hide' ? 'bad' : c === 'low' ? 'warn' : ''}">${t}</span></div><div class="muted">${esc(l.qty_kg)} kg left · ${ugx(l.price_ugx)}/kg</div>
+   <div class="row" style="align-items:end"><div><label for="rs${esc(l.listing_id)}">Stock (kg)</label><input id="rs${esc(l.listing_id)}" type="number" min="0" step="0.5" value="${esc(l.qty_kg)}"></div>${btn('restock', l.listing_id, 'Update stock', 'alt')}
+   ${l.status === 'available' ? btn('setstatus', l.listing_id, 'Mark sold out', 'alt', 'data-s="sold_out"') + btn('setstatus', l.listing_id, 'Hide', 'alt', 'data-s="hidden"') : btn('setstatus', l.listing_id, l.status === 'hidden' ? 'Show again' : 'Mark available', '', 'data-s="available"')}</div></div>`; }).join('') || '<p class="muted">None yet.</p>'}`;
   bindLoc($app.querySelector('form'), me);
 }
 let SALES = [];
@@ -667,7 +695,8 @@ async function viewOrders() {
     const l = o.listings || {}, p = one(o.payments), d = one(o.disputes), open = o.status === 'open', a = [];
     const mineFarm = l.farmer_id === me.user_id || l.posted_by === me.user_id;
     if (me.role === 'buyer' && o.buyer_id === me.user_id) {
-      if (o.stage === 1 && open) a.push(btn('pay', o.order_id, 'Pay with mobile money', '', `data-total="${Math.round(Number(o.qty_kg) * Number(l.price_ugx || 0) + Number(o.delivery_fee_ugx || 0))}"`));
+      if (o.stage === 1 && open) a.push(btn('pay', o.order_id, 'Pay with Pesapal', '', `data-total="${Math.round(Number(o.qty_kg) * Number(l.price_ugx || 0) + Number(o.delivery_fee_ugx || 0))}"`));
+      if (o.stage <= 2 && open) a.push(btn('cancelorder', o.order_id, 'Cancel order', 'alt', `data-paid="${o.stage === 2}"`));
       if (o.stage === 6 && open) a.push(btn('confirm', o.order_id, 'Confirm I received it'));
       if ([5, 6].includes(o.stage) && open) a.push(btn('report', o.order_id, 'Report a problem', 'danger'));
       if (o.status === 'completed') a.push(btn('reorder', o.order_id, 'Order again', 'alt', `data-listing="${esc(o.listing_id)}" data-qty="${esc(o.qty_kg)}"`));
@@ -716,7 +745,7 @@ async function viewReceipt(id) {
    <tr><td>Delivery (${esc(o.mode)})</td><td>${ugx(o.delivery_fee_ugx)}</td></tr>
    <tr><td><b>${isBuyer ? 'Total paid' : 'Buyer paid'}</b></td><td><b>${ugx(p.amount_ugx)}</b></td></tr>
    ${isBuyer ? '' : `<tr><td>Platform fee (${FEE_PCT}%)</td><td>− ${ugx(p.fee_ugx)}</td></tr><tr><td><b>Your payout</b></td><td><b>${ugx(produce - p.fee_ugx)}</b></td></tr>`}</table>
-   <p>Escrow status: <span class="tag">${esc(p.status)}</span> via mobile money (test mode)</p>
+   <p>Escrow status: <span class="tag">${esc(p.status)}</span> via Pesapal (sandbox)</p>
    <button type="button" class="noprint" onclick="window.print()">Print or save as PDF</button></div>`;
 }
 
@@ -810,15 +839,16 @@ async function adminPane(tab) {
     return `<h2 style="margin-top:0">People (${us.length})</h2><input id="uq" placeholder="Search by name, phone, role or town" aria-label="Search people"><div class="tbl" style="margin-top:.6rem"><table><tr><th>Name</th><th>Phone</th><th>Town</th><th>Joined</th><th>Role</th><th>Agent approval</th><th></th></tr>
       ${us.map(u => `<tr data-s="${esc([u.name, u.phone_no, u.role, u.town].join(' ').toLowerCase())}"><td>${esc(u.name)}</td><td>${esc(u.phone_no)}</td><td>${esc(u.town || '')}</td><td>${esc(u.created_at.slice(0, 10))}</td>
       <td><select aria-label="Role of ${esc(u.name)}" ${u.user_id === me.user_id ? 'disabled' : ''}>${['buyer', 'farmer', 'agent', 'rider', 'admin'].map(r => `<option ${r === u.role ? 'selected' : ''}>${r}</option>`).join('')}</select></td>
-      <td>${u.role === 'agent' ? `<span class="tag ${u.approval_status === 'approved' ? '' : 'warn'}">${esc(u.approval_status || 'pending')}</span>${u.approval_status !== 'approved' ? btn('approveagent', u.user_id, 'Approve') : ''}` : '—'}</td>
+      <td>${u.role === 'agent' ? `<span class="tag ${u.approval_status === 'approved' ? '' : 'warn'}">${esc(u.approval_status || 'pending')}</span>${u.approval_status !== 'approved' ? btn('approveagent', u.user_id, 'Approve') : ''}${u.approval_status === 'pending' ? btn('rejectagent', u.user_id, 'Reject', 'danger') : ''}` : '—'}</td>
       <td>${u.user_id === me.user_id ? '<span class="muted">You</span>' : btn('setrole', u.user_id, 'Save')}</td></tr>`).join('')}</table></div>`;
   }
   if (tab === 'listings') {
     const ls = await run(sb.from('listings').select('*').order('created_at', { ascending: false }).limit(200));
-    return `<h2 style="margin-top:0">Listings (${ls.length})</h2><div class="tbl"><table><tr><th>Photo</th><th>Produce</th><th>Where</th><th>Price/kg</th><th>Kg left</th><th></th></tr>
+    return `<h2 style="margin-top:0">Listings (${ls.length})</h2><div class="tbl"><table><tr><th>Photo</th><th>Produce</th><th>Where</th><th>Price/kg</th><th>Kg left</th><th>Status</th><th></th></tr>
       ${ls.map(l => `<tr><td class="lph"><div class="lthumb" style="background-image:${cssUrl(listImg(l))}"></div><input name="photo" type="file" accept="image/*" aria-label="New photo for ${esc(l.produce)}">${l.photo_url ? btn('listphotooff', l.listing_id, 'Remove photo', 'alt') : ''}</td><td><a href="#/listing/${esc(l.listing_id)}">${esc(l.produce)}</a></td><td>${esc(l.town)}</td><td><input name="price" type="number" min="1" value="${esc(l.price_ugx)}" aria-label="Price"></td><td><input name="qty" type="number" min="0" value="${esc(l.qty_kg)}" aria-label="Quantity"></td>
-      <td style="white-space:nowrap">${btn('savelisting', l.listing_id, 'Save')} ${btn('dellisting', l.listing_id, 'Delete', 'danger')}</td></tr>`).join('') || '<tr><td colspan="6">No listings.</td></tr>'}</table></div>
-      <p class="muted">Choose a new photo in a row, then press Save. Remove photo goes back to the category picture. A listing that already has orders cannot be deleted. Set its quantity to 0 to hide it.</p>`;
+      <td><select name="status" aria-label="Status">${['available', 'sold_out', 'hidden'].map(x => `<option value="${x}" ${l.status === x ? 'selected' : ''}>${x.replace('_', ' ')}</option>`).join('')}</select></td>
+      <td style="white-space:nowrap">${btn('savelisting', l.listing_id, 'Save')} ${btn('dellisting', l.listing_id, 'Delete', 'danger')}</td></tr>`).join('') || '<tr><td colspan="7">No listings.</td></tr>'}</table></div>
+      <p class="muted">Choose a new photo in a row, then press Save. Remove photo goes back to the category picture. A listing that already has orders cannot be deleted. Set its status to hidden instead.</p>`;
   }
   if (tab === 'orders') {
     const os = await run(sb.from('orders').select('order_id,qty_kg,mode,stage,status,created_at,listings(produce,town),payments(amount_ugx,status)').order('created_at', { ascending: false }).limit(100));
@@ -841,7 +871,15 @@ async function adminPane(tab) {
   if (tab === 'site') {
     const slot = ([key, title, def, cat]) => `<div class="slot"><div class="thumb" style="background-image:${SET[key] ? cssUrl(SET[key]) : cat ? cssUrl(art(cat)) : def}"></div><label for="im_${key}">${esc(title)}</label>
       <input id="im_${key}" name="${key}" type="file" accept="image/*">${SET[key] ? btn('imgoff', key, key === 'logo_url' ? 'Remove logo' : 'Use sample picture', 'alt') : '<span class="muted">Sample picture in use</span>'}</div>`;
-    return `<h2 style="margin-top:0">Pictures and wording</h2><div class="card"><form data-form="look">
+    return `<h2 style="margin-top:0">Pictures and wording</h2>
+      <div class="card logo-card"><div class="logo-pic"><img src="${esc(SET.logo_url || 'icon-192.png')}" alt="Current app logo"></div><div><h3>App logo</h3><p class="muted">Shown in the header and used as the app icon. Square pictures up to 10 MB work best. On a phone, reinstall the app to see a new home-screen icon.</p>
+      <div class="acts"><label class="filebtn" for="logo-file">${SET.logo_url ? 'Change logo' : 'Upload logo'}</label><input id="logo-file" type="file" accept="image/*" hidden>${SET.logo_url ? btn('imgoff', 'logo_url', 'Remove logo', 'alt') : ''}</div></div></div>
+      <div class="card"><form data-form="look">
+      <div class="row"><div><label for="an">App name</label><input id="an" name="app_name" maxlength="30" value="${esc(SET.app_name ?? '')}" placeholder="Lima"></div>
+      <div><label for="ev">Badge in the header (empty hides it)</label><input id="ev" name="env_label" maxlength="20" value="${esc(SET.env_label ?? 'Sandbox')}"></div></div>
+      <label for="ft">Footer message</label><input id="ft" name="footer_text" maxlength="200" value="${esc(SET.footer_text ?? DEFAULT_FOOTER)}">
+      <label>Brand colours</label><div class="colors"><div><span class="muted">Header and dark areas</span><input type="color" name="color_deep" value="${esc(SET.color_deep || '#0d3b2a')}" aria-label="Header colour"></div><div><span class="muted">Buttons and links</span><input type="color" name="color_leaf" value="${esc(SET.color_leaf || '#1f7a3a')}" aria-label="Button colour"></div><div><span class="muted">Highlights</span><input type="color" name="color_lime" value="${esc(SET.color_lime || '#b8e04a')}" aria-label="Highlight colour"></div></div>
+      ${SET.color_deep || SET.color_leaf || SET.color_lime ? btn('colorsreset', 'x', 'Reset colours', 'alt') : ''}
       <label for="tg">Headline on the home page</label><input id="tg" name="tagline" maxlength="120" value="${esc(SET.tagline ?? '')}">
       <div class="row"><div><label for="pt">Promo banner title</label><input id="pt" name="promo_title" maxlength="80" value="${esc(SET.promo_title ?? '')}" placeholder="Have produce to sell?"></div>
       <div><label for="px">Promo banner text</label><input id="px" name="promo_text" maxlength="200" value="${esc(SET.promo_text ?? '')}"></div></div>
@@ -874,6 +912,7 @@ $app.addEventListener('click', async e => {
     if (act === 'switch') return viewAuth(id);
     if (act === 'more') { SHOWN += 24; return route(); }
     if (act === 'retry') { if (me?.role === 'agent' && me.approval_status !== 'approved') await loadMe(); return route(); }
+    if (act === 'colorsreset') { for (const k of ['color_deep', 'color_leaf', 'color_lime']) if (SET[k]) await run(sb.rpc('admin_set_setting', { p_key: k, p_value: '' })); await loadSettings(); toast('Colours reset'); return route(); }
     if (act === 'imgoff') { await run(sb.rpc('admin_set_setting', { p_key: id, p_value: '' }), 'Picture reset'); await loadSettings(); return route(); }
     if (!me && ['tocart', 'wish', 'needlogin'].includes(act)) return needLogin();
     if (act === 'cat') { SHOWN = 24; F = { ...F0, category: id }; const same = location.hash === '#/market'; location.hash = '#/market'; if (same) route(); return; }
@@ -925,6 +964,10 @@ $app.addEventListener('click', async e => {
     }
     else if (act === 'pay') { openPay({ id, total_ugx: +b.dataset.total }, () => route()); b.disabled = false; return; }
     else if (act === 'payall') { openPay(JSON.parse(b.dataset.orders), () => route()); b.disabled = false; return; }
+    else if (act === 'cancelorder') {
+      if (!confirm(b.dataset.paid === 'true' ? 'Cancel this order? Your payment will be marked for refund.' : 'Cancel this order?')) { b.disabled = false; return; }
+      await rpc('cancel_order', { p_order: id }, 'Order cancelled');
+    }
     else if (act === 'confirm') await rpc('confirm_receipt', { p_order: id }, 'Receipt confirmed. Payment released to the farmer.');
     else if (act === 'accept') await rpc('farmer_step', { p_order: id, p_to: 3 }, 'Order accepted');
     else if (act === 'ready') await rpc('farmer_step', { p_order: id, p_to: 4 }, 'Marked ready');
@@ -933,19 +976,22 @@ $app.addEventListener('click', async e => {
     else if (act === 'deliver') await rpc('rider_step', { p_order: id, p_to: 6 }, 'Marked delivered');
     else if (act === 'rate') await rpc('rate_order', { p_order: id, p_ratee: b.dataset.ratee, p_stars: +card.querySelector('select').value, p_comment: card.querySelector('textarea').value.trim() || null }, 'Thanks for rating');
     else if (act === 'setrole') await rpc('admin_set_role', { p_user: id, p_role: b.closest('tr').querySelector('select').value }, 'Role updated');
+    else if (act === 'rejectagent') await rpc('admin_reject_agent', { p_user: id }, 'Village-agent account rejected');
     else if (act === 'approveagent') await rpc('admin_approve_agent', { p_user: id }, 'Village-agent account approved');
-    else if (act === 'savelisting') { const tr = b.closest('tr'); const upd = { price_ugx: +tr.querySelector('[name=price]').value, qty_kg: +tr.querySelector('[name=qty]').value }; const ph = tr.querySelector('[name=photo]')?.files?.[0]; if (ph) upd.photo_url = await upload(ph, 'listing'); await run(sb.from('listings').update(upd).eq('listing_id', id), 'Listing updated'); }
+    else if (act === 'savelisting') { const tr = b.closest('tr'); const upd = { price_ugx: +tr.querySelector('[name=price]').value, qty_kg: +tr.querySelector('[name=qty]').value, status: tr.querySelector('[name=status]').value }; const ph = tr.querySelector('[name=photo]')?.files?.[0]; if (ph) upd.photo_url = await upload(ph, 'listing'); await run(sb.from('listings').update(upd).eq('listing_id', id), 'Listing updated'); }
+    else if (act === 'setstatus') await run(sb.from('listings').update({ status: b.dataset.s }).eq('listing_id', id), b.dataset.s === 'sold_out' ? 'Marked sold out' : b.dataset.s === 'hidden' ? 'Listing hidden' : 'Listing is on sale');
+    else if (act === 'restock') { const v = +card.querySelector('input[type=number]').value; if (!(v >= 0)) { toast('Enter the kg you have in stock', true); b.disabled = false; return; } await run(sb.from('listings').update({ qty_kg: v }).eq('listing_id', id), 'Stock updated'); }
     else if (act === 'listphotooff') { await run(sb.from('listings').update({ photo_url: null }).eq('listing_id', id), 'Photo removed'); }
     else if (act === 'dellisting') {
       if (!confirm('Remove this listing from the marketplace? Existing order history will be preserved.')) { b.disabled = false; return; }
       const linked = await sb.from('orders').select('order_id', { count: 'exact', head: true }).eq('listing_id', id);
       if (linked.error) throw linked.error;
       if ((linked.count || 0) > 0) {
-        await run(sb.from('listings').update({ qty_kg: 0 }).eq('listing_id', id), 'Listing hidden; its order history was preserved');
+        await run(sb.from('listings').update({ status: 'hidden' }).eq('listing_id', id), 'Listing hidden; its order history was preserved');
       } else {
         const del = await sb.from('listings').delete().eq('listing_id', id);
         if (del.error && (del.error.code === '23503' || /orders_listing_id_fkey/i.test(del.error.message || ''))) {
-          await run(sb.from('listings').update({ qty_kg: 0 }).eq('listing_id', id), 'Listing hidden; its order history was preserved');
+          await run(sb.from('listings').update({ status: 'hidden' }).eq('listing_id', id), 'Listing hidden; its order history was preserved');
         } else if (del.error) { toast(del.error.message, true); throw del.error; }
         else toast('Listing removed');
       }
@@ -983,7 +1029,9 @@ $app.addEventListener('submit', async e => {
     else if (k === 'look') {
       for (const [key] of IMG_SLOTS) { const fl = f.elements[key]?.files?.[0]; if (fl) { const url = await upload(fl, 'site'); await run(sb.rpc('admin_set_setting', { p_key: key, p_value: url })); } }
       const weatherVideo = f.elements.weather_video_url?.files?.[0]; if (weatherVideo) { const url = await upload(weatherVideo, 'weather-video'); await run(sb.rpc('admin_set_setting', { p_key: 'weather_video_url', p_value: url })); }
-      for (const key of ['tagline', 'promo_title', 'promo_text']) if ((v[key] || '') !== (SET[key] || '')) await run(sb.rpc('admin_set_setting', { p_key: key, p_value: v[key] || '' }));
+      for (const [key, d] of [['color_deep', '#0d3b2a'], ['color_leaf', '#1f7a3a'], ['color_lime', '#b8e04a']]) if (v[key] && v[key].toLowerCase() !== (SET[key] || d).toLowerCase()) await run(sb.rpc('admin_set_setting', { p_key: key, p_value: v[key] }));
+      for (const [key, d] of [['env_label', 'Sandbox'], ['footer_text', DEFAULT_FOOTER]]) if ((v[key] ?? '') !== (SET[key] ?? d)) await run(sb.rpc('admin_set_setting', { p_key: key, p_value: v[key] ?? '' }));
+      for (const key of ['tagline', 'promo_title', 'promo_text', 'app_name']) if ((v[key] || '') !== (SET[key] || '')) await run(sb.rpc('admin_set_setting', { p_key: key, p_value: v[key] || '' }));
       await loadSettings(); toast('Saved');
     }
     else if (k === 'feedback') { await run(sb.rpc('send_feedback', { p_kind: v.kind, p_message: v.message }), 'Thank you. Your feedback was sent.'); }
@@ -1018,6 +1066,32 @@ $app.addEventListener('input', e => {
     document.getElementById('hint').textContent = p ? `Market price today: ${ugx(p.avg_price_ugx)}/kg` : '';
   }
 });
+$app.addEventListener('change', async e => {   // logo works like a profile picture: pick a file and it saves
+  if (e.target.id !== 'logo-file') return;
+  const fl = e.target.files[0]; if (!fl) return;
+  try { const url = await upload(fl, 'logo'); await run(sb.rpc('admin_set_setting', { p_key: 'logo_url', p_value: url }), 'Logo updated'); await loadSettings(); route(); } catch { e.target.value = ''; }
+});
+/*pw-start*/
+const EYE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>';
+const EYE_OFF = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.9 17.9A10.9 10.9 0 0 1 12 19C5 19 1 12 1 12a18.5 18.5 0 0 1 5.1-5.9M9.9 5.1A10.9 10.9 0 0 1 12 5c7 0 11 7 11 7a18.5 18.5 0 0 1-2.2 3.2M1 1l22 22"/><path d="M14.1 14.1a3 3 0 1 1-4.2-4.2"/></svg>';
+function decoratePw() {
+  $app.querySelectorAll('input[type=password]').forEach(i => {
+    if (i.parentElement.classList.contains('pwwrap')) return;
+    const w = document.createElement('span'); w.className = 'pwwrap'; i.parentNode.insertBefore(w, i); w.appendChild(i);
+    const b = document.createElement('button'); b.type = 'button'; b.className = 'pwtoggle'; b.setAttribute('aria-label', 'Show password'); b.setAttribute('aria-pressed', 'false'); b.innerHTML = EYE;
+    b.onclick = () => { const show = i.type === 'password'; i.type = show ? 'text' : 'password'; b.innerHTML = show ? EYE_OFF : EYE; b.setAttribute('aria-pressed', String(show)); b.setAttribute('aria-label', show ? 'Hide password' : 'Show password'); };
+    w.appendChild(b);
+  });
+}
+new MutationObserver(decoratePw).observe($app, { childList: true, subtree: true }); decoratePw();
+/*pw-end*/
+const hdr = document.querySelector('header.top'), mbtn = document.getElementById('menubtn');
+const setMenu = o => { hdr.classList.toggle('open', o); mbtn.setAttribute('aria-expanded', String(o)); mbtn.setAttribute('aria-label', o ? 'Close menu' : 'Open menu'); };
+mbtn.onclick = e => { e.stopPropagation(); setMenu(!hdr.classList.contains('open')); };
+document.getElementById('nav').addEventListener('click', e => { if (e.target.closest('a')) setMenu(false); });
+document.addEventListener('click', e => { if (!hdr.contains(e.target)) setMenu(false); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
+addEventListener('hashchange', () => setMenu(false));
 const tb = document.getElementById('themebtn');
 const setTheme = t => { document.documentElement.dataset.theme = t; try { localStorage.setItem('lima_theme', t); } catch {}
   tb.textContent = t === 'dark' ? '☀️' : '🌙'; tb.setAttribute('aria-label', t === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');

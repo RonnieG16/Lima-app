@@ -1,5 +1,5 @@
 -- Lima: Supabase schema (from the draw.io ERD). Run once in Supabase > SQL Editor.
--- Mock payments only (simulated Thewton Pay). No real card/PIN/OTP data is stored.
+-- Payments are taken on Pesapal's hosted checkout (sandbox). No card, PIN or OTP data is stored in this database.
 
 
 -- ---------- tables (ERD: USER, LISTING, ORDER, PAYMENT, DELIVERY, RATING, DISPUTE, MARKET_PRICE, AUDIT_LOG)
@@ -290,7 +290,7 @@ begin
   return oid;
 end $$;
 
--- Simulated Thewton Pay: money moves into escrow (no PIN or card data)
+-- Escrow hold. Live payments reach this step through the pay-webhook function after Pesapal confirms them; this function also drives the offline test suite.
 create or replace function pay_order(p_order uuid, p_simulate_fail boolean default false) returns void
 language plpgsql security definer set search_path = public as $$
 declare o orders;
@@ -300,7 +300,7 @@ begin
   if o.stage <> 1 then raise exception 'Order already paid'; end if;
   if p_simulate_fail then
     update payments set status = 'pending' where order_id = p_order;
-    raise exception 'Thewton Pay declined the payment (simulated). Please retry.';
+    raise exception 'The payment was declined (test). Please retry.';
   end if;
   update payments set status = 'held' where order_id = p_order;
   update orders set stage = 2 where order_id = p_order;
