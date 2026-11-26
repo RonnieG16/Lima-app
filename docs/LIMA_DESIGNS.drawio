@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" pages="6">
+<mxfile host="app.diagrams.net" pages="7">
   <diagram name="Use case" id="EBXrT_20gqKAZG_KcCHS">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1842" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
         <mxCell id="qBHmnNxJwBrxeHlmDoXt-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;fillColor=#EEF4FF;strokeColor=#9DB8F2;" value="Place order" vertex="1">
           <mxGeometry height="48" width="220" x="470" y="422" as="geometry" />
         </mxCell>
-        <mxCell id="qBHmnNxJwBrxeHlmDoXt-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;fillColor=#EEF4FF;strokeColor=#9DB8F2;" value="Track order status" vertex="1">
+        <mxCell id="qBHmnNxJwBrxeHlmDoXt-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;fillColor=#EEF4FF;strokeColor=#9DB8F2;" value="Track order status (7 steps)" vertex="1">
           <mxGeometry height="48" width="220" x="470" y="478" as="geometry" />
         </mxCell>
         <mxCell id="qBHmnNxJwBrxeHlmDoXt-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;fillColor=#EEF4FF;strokeColor=#9DB8F2;" value="Confirm receipt and rate" vertex="1">
@@ -40,7 +40,7 @@
         <mxCell id="qBHmnNxJwBrxeHlmDoXt-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;fillColor=#E7F6EC;strokeColor=#8BCB9F;" value="View sales records" vertex="1">
           <mxGeometry height="48" width="220" x="470" y="890" as="geometry" />
         </mxCell>
-        <mxCell id="qBHmnNxJwBrxeHlmDoXt-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;fillColor=#E7F6EC;strokeColor=#8BCB9F;" value="See prices, weather, advice" vertex="1">
+        <mxCell id="qBHmnNxJwBrxeHlmDoXt-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;fillColor=#E7F6EC;strokeColor=#8BCB9F;" value="See prices, weather (Open-Meteo), advice" vertex="1">
           <mxGeometry height="48" width="220" x="470" y="946" as="geometry" />
         </mxCell>
         <mxCell id="qBHmnNxJwBrxeHlmDoXt-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;fillColor=#FFF6E0;strokeColor=#E8C36A;" value="Register farmers" vertex="1">
@@ -70,14 +70,14 @@
         <mxCell id="qBHmnNxJwBrxeHlmDoXt-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;fillColor=#F3EEFF;strokeColor=#B9A6F0;" value="Publish advice and price data" vertex="1">
           <mxGeometry height="48" width="220" x="1180" y="686" as="geometry" />
         </mxCell>
-        <mxCell id="qBHmnNxJwBrxeHlmDoXt-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;fillColor=#F3EEFF;strokeColor=#B9A6F0;" value="Change site settings" vertex="1">
+        <mxCell id="qBHmnNxJwBrxeHlmDoXt-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;fillColor=#F3EEFF;strokeColor=#B9A6F0;" value="Customize logo, colours, media and fees" vertex="1">
           <mxGeometry height="48" width="220" x="1180" y="756" as="geometry" />
         </mxCell>
         <mxCell id="qBHmnNxJwBrxeHlmDoXt-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;fillColor=#F3EEFF;strokeColor=#B9A6F0;" value="View audit log" vertex="1">
           <mxGeometry height="48" width="220" x="1180" y="834" as="geometry" />
         </mxCell>
         <mxCell id="qBHmnNxJwBrxeHlmDoXt-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#FFF9DB;strokeColor=#E9D58A;align=left;spacingLeft=6;" value="Every actor registers or logs in with a role-based account (buyer, farmer, field agent, rider, admin). Field-agent accounts require admin approval before agent tools are enabled." vertex="1">
-          <mxGeometry height="90" width="250" x="820" y="830" as="geometry" />
+          <mxGeometry height="90" width="250" x="840" y="1050" as="geometry" />
         </mxCell>
         <mxCell id="qBHmnNxJwBrxeHlmDoXt-26" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=14;labelPerimeter=1;" value="Buyer" vertex="1">
           <mxGeometry height="60" width="30" x="325" y="500" as="geometry" />
@@ -94,7 +94,7 @@
         <mxCell id="qBHmnNxJwBrxeHlmDoXt-30" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=14;labelPerimeter=1;" value="Lima admin" vertex="1">
           <mxGeometry height="60" width="30" x="1485" y="680" as="geometry" />
         </mxCell>
-        <mxCell id="qBHmnNxJwBrxeHlmDoXt-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#F2F4F7;strokeColor=#B8C0CC;" value="Pesapal&lt;br&gt;&lt;small&gt;mobile money / card (sandbox)&lt;/small&gt;" vertex="1">
+        <mxCell id="qBHmnNxJwBrxeHlmDoXt-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#F2F4F7;strokeColor=#B8C0CC;" value="Pesapal&lt;br&gt;&lt;small&gt;mobile money / card&lt;br&gt;(hosted checkout + IPN)&lt;/small&gt;" vertex="1">
           <mxGeometry height="80" width="110" x="1480" y="380" as="geometry" />
         </mxCell>
         <mxCell id="qBHmnNxJwBrxeHlmDoXt-32" edge="1" parent="1" source="qBHmnNxJwBrxeHlmDoXt-26" style="endArrow=none;html=1;strokeColor=#8A94A6;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="qBHmnNxJwBrxeHlmDoXt-3">
@@ -175,15 +175,39 @@
         <mxCell id="qBHmnNxJwBrxeHlmDoXt-57" parent="1" style="text;html=1;fontSize=13;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#5A626E;" value="Solid line = actor takes part · Dashed «include» = step reused by another use case · Colours group use cases by actor (blue buyer, green farmer, yellow field agent, orange rider, purple admin, outlined blue = payment)" vertex="1">
           <mxGeometry height="30" width="1300" x="250" y="1295" as="geometry" />
         </mxCell>
-      </root>
+      <mxCell id="u5_uc_cancel" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;fillColor=#EEF4FF;strokeColor=#9DB8F2;" value="Cancel order before the farmer accepts" vertex="1">
+          <mxGeometry height="48" width="220" x="820" y="478" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_uc_status" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;fillColor=#E7F6EC;strokeColor=#8BCB9F;" value="Set produce status: available, sold out, hidden" vertex="1">
+          <mxGeometry height="48" width="220" x="820" y="722" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_uc_alerts" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;fillColor=#F3EEFF;strokeColor=#B9A6F0;" value="Receive admin alerts (orders, agents, disputes)" vertex="1">
+          <mxGeometry height="48" width="220" x="1180" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_uc_agents" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=13;fillColor=#F3EEFF;strokeColor=#B9A6F0;" value="Approve or reject new field agents" vertex="1">
+          <mxGeometry height="48" width="220" x="1180" y="966" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_e1" edge="1" parent="1" source="qBHmnNxJwBrxeHlmDoXt-26" style="endArrow=none;html=1;strokeColor=#8A94A6;" target="u5_uc_cancel" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_e2" edge="1" parent="1" source="qBHmnNxJwBrxeHlmDoXt-27" style="endArrow=none;html=1;strokeColor=#8A94A6;" target="u5_uc_status" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_e3" edge="1" parent="1" source="qBHmnNxJwBrxeHlmDoXt-30" style="endArrow=none;html=1;strokeColor=#8A94A6;" target="u5_uc_alerts" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_e4" edge="1" parent="1" source="qBHmnNxJwBrxeHlmDoXt-30" style="endArrow=none;html=1;strokeColor=#8A94A6;" target="u5_uc_agents" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Flowchart" id="nfLM7bg7DXH1wKP-ntW1">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1747" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="S8cR72F4rlXZbPpjLX5q-0" />
         <mxCell id="S8cR72F4rlXZbPpjLX5q-1" parent="S8cR72F4rlXZbPpjLX5q-0" />
-        <mxCell id="103W6lpT31XVKLTKDGnj-46" parent="S8cR72F4rlXZbPpjLX5q-1" style="text;html=1;fontSize=20;fontStyle=1;align=left;verticalAlign=middle;whiteSpace=wrap;" value="Lima order flow: money stays in escrow until the buyer confirms the delivery" vertex="1">
+        <mxCell id="103W6lpT31XVKLTKDGnj-46" parent="S8cR72F4rlXZbPpjLX5q-1" style="text;html=1;fontSize=20;fontStyle=1;align=left;verticalAlign=middle;whiteSpace=wrap;" value="Lima order flow: buyer pays via Pesapal into escrow, money stays held until the buyer confirms delivery (or auto-release / admin decision)" vertex="1">
           <mxGeometry height="44" width="1260" x="670" y="610" as="geometry" />
         </mxCell>
         <mxCell id="103W6lpT31XVKLTKDGnj-47" parent="S8cR72F4rlXZbPpjLX5q-1" style="swimlane;horizontal=0;startSize=110;fillColor=#F7F8FA;strokeColor=#D5DAE1;fontSize=16;fontStyle=1;html=1;" value="Buyer" vertex="1">
@@ -231,7 +255,7 @@
         <mxCell id="103W6lpT31XVKLTKDGnj-59" parent="103W6lpT31XVKLTKDGnj-58" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#FFFFFF;strokeColor=#8A94A6;" value="Rider delivers" vertex="1">
           <mxGeometry height="60" width="140" x="740" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="103W6lpT31XVKLTKDGnj-60" parent="S8cR72F4rlXZbPpjLX5q-1" style="swimlane;horizontal=0;startSize=110;fillColor=#F3FAF5;strokeColor=#D5DAE1;fontSize=14;fontStyle=1;html=1;" value="Lima and mobile money partner" vertex="1">
+        <mxCell id="103W6lpT31XVKLTKDGnj-60" parent="S8cR72F4rlXZbPpjLX5q-1" style="swimlane;horizontal=0;startSize=110;fillColor=#F3FAF5;strokeColor=#D5DAE1;fontSize=14;fontStyle=1;html=1;" value="Lima and Pesapal (mobile money / card)" vertex="1">
           <mxGeometry height="150" width="1260" x="660" y="1160" as="geometry" />
         </mxCell>
         <mxCell id="103W6lpT31XVKLTKDGnj-61" parent="103W6lpT31XVKLTKDGnj-60" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FDECEC;strokeColor=#C9302C;strokeWidth=3;verticalLabelPosition=bottom;verticalAlign=top;labelPerimeter=1;" value="Cancelled" vertex="1">
@@ -326,7 +350,7 @@
         <mxCell id="XlSbtiJXAnSsKm-7rsXn-4" parent="XlSbtiJXAnSsKm-7rsXn-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;strokeColor=#8A94A6;" value="Search and compare by place, price, ratings" vertex="1">
           <mxGeometry height="70" width="140" x="380" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="XlSbtiJXAnSsKm-7rsXn-5" parent="XlSbtiJXAnSsKm-7rsXn-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;strokeColor=#8A94A6;" value="Order and pay by mobile money" vertex="1">
+        <mxCell id="XlSbtiJXAnSsKm-7rsXn-5" parent="XlSbtiJXAnSsKm-7rsXn-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;strokeColor=#8A94A6;" value="Order and pay via Pesapal (mobile money / card)" vertex="1">
           <mxGeometry height="70" width="140" x="550" y="40" as="geometry" />
         </mxCell>
         <mxCell id="XlSbtiJXAnSsKm-7rsXn-6" parent="XlSbtiJXAnSsKm-7rsXn-1" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFF6E0;strokeColor=#E8C36A;" value="Goods OK on arrival?" vertex="1">
@@ -364,7 +388,7 @@
         <mxCell id="XlSbtiJXAnSsKm-7rsXn-14" parent="XlSbtiJXAnSsKm-7rsXn-12" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;strokeColor=#8A94A6;" value="Register or log in as farmer" vertex="1">
           <mxGeometry height="70" width="140" x="210" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="XlSbtiJXAnSsKm-7rsXn-15" parent="XlSbtiJXAnSsKm-7rsXn-12" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;strokeColor=#8A94A6;" value="List produce: quantity, price, harvest date" vertex="1">
+        <mxCell id="XlSbtiJXAnSsKm-7rsXn-15" parent="XlSbtiJXAnSsKm-7rsXn-12" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;strokeColor=#8A94A6;" value="List produce: quantity, price, harvest date; status: available, sold out or hidden" vertex="1">
           <mxGeometry height="70" width="140" x="380" y="40" as="geometry" />
         </mxCell>
         <mxCell id="XlSbtiJXAnSsKm-7rsXn-16" parent="XlSbtiJXAnSsKm-7rsXn-12" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;strokeColor=#8A94A6;" value="Prepare produce and mark ready" vertex="1">
@@ -394,22 +418,22 @@
         <mxCell id="XlSbtiJXAnSsKm-7rsXn-22" parent="XlSbtiJXAnSsKm-7rsXn-21" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;strokeColor=#8A94A6;" value="Collect and deliver; update order status" vertex="1">
           <mxGeometry height="70" width="140" x="1145" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="XlSbtiJXAnSsKm-7rsXn-23" parent="S8cR72F4rlXZbPpjLX5q-1" style="swimlane;horizontal=0;startSize=110;fillColor=light-dark(#F6F9FF,#6600CC);strokeColor=#D5DAE1;fontSize=14;fontStyle=1;html=1;" value="Lima platform and mobile money partner" vertex="1">
+        <mxCell id="XlSbtiJXAnSsKm-7rsXn-23" parent="S8cR72F4rlXZbPpjLX5q-1" style="swimlane;horizontal=0;startSize=110;fillColor=light-dark(#F6F9FF,#6600CC);strokeColor=#D5DAE1;fontSize=14;fontStyle=1;html=1;" value="Lima platform and Pesapal" vertex="1">
           <mxGeometry height="220" width="1960" x="1320" y="2110" as="geometry" />
         </mxCell>
         <mxCell id="XlSbtiJXAnSsKm-7rsXn-24" parent="XlSbtiJXAnSsKm-7rsXn-23" style="ellipse;html=1;fontSize=14;fillColor=#FDECEC;strokeColor=#C9302C;strokeWidth=3;verticalLabelPosition=bottom;verticalAlign=top;labelPerimeter=1;" value="Rejected: clear message" vertex="1">
           <mxGeometry height="40" width="40" x="440" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="XlSbtiJXAnSsKm-7rsXn-25" parent="XlSbtiJXAnSsKm-7rsXn-23" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFF6E0;strokeColor=#E8C36A;" value="Quantity in stock?" vertex="1">
+        <mxCell id="XlSbtiJXAnSsKm-7rsXn-25" parent="XlSbtiJXAnSsKm-7rsXn-23" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFF6E0;strokeColor=#E8C36A;" value="Produce on sale and in stock?" vertex="1">
           <mxGeometry height="90" width="160" x="540" y="25" as="geometry" />
         </mxCell>
         <mxCell id="XlSbtiJXAnSsKm-7rsXn-26" parent="XlSbtiJXAnSsKm-7rsXn-23" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E3EEFB;strokeColor=#2563EB;strokeWidth=2;" value="Paid into escrow?" vertex="1">
           <mxGeometry height="90" width="160" x="745" y="25" as="geometry" />
         </mxCell>
-        <mxCell id="XlSbtiJXAnSsKm-7rsXn-28" parent="XlSbtiJXAnSsKm-7rsXn-23" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E3EEFB;strokeColor=#2563EB;strokeWidth=2;" value="Hold payment in escrow; alert farmer" vertex="1">
+        <mxCell id="XlSbtiJXAnSsKm-7rsXn-28" parent="XlSbtiJXAnSsKm-7rsXn-23" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E3EEFB;strokeColor=#2563EB;strokeWidth=2;" value="Hold payment in escrow (Pesapal → pay-webhook); alert farmer" vertex="1">
           <mxGeometry height="70" width="140" x="950" y="35" as="geometry" />
         </mxCell>
-        <mxCell id="XlSbtiJXAnSsKm-7rsXn-29" parent="XlSbtiJXAnSsKm-7rsXn-23" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;strokeColor=#8A94A6;" value="Release payment minus fee issue receipts" vertex="1">
+        <mxCell id="XlSbtiJXAnSsKm-7rsXn-29" parent="XlSbtiJXAnSsKm-7rsXn-23" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;strokeColor=#8A94A6;" value="Release escrow minus platform fee; issue receipts (farmer payout from Lima merchant)" vertex="1">
           <mxGeometry height="70" width="140" x="1585" y="35" as="geometry" />
         </mxCell>
         <mxCell id="XlSbtiJXAnSsKm-7rsXn-30" parent="XlSbtiJXAnSsKm-7rsXn-23" style="ellipse;html=1;fontSize=14;fillColor=#E7F6EC;strokeColor=#8BCB9F;strokeWidth=3;verticalLabelPosition=bottom;verticalAlign=top;labelPerimeter=1;" value="Completed" vertex="1">
@@ -525,7 +549,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XlSbtiJXAnSsKm-7rsXn-52" parent="S8cR72F4rlXZbPpjLX5q-1" style="text;html=1;fontSize=14;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#5A626E;" value="Dashed line = exception or dispute path · Blue outline = key control (payment held in escrow) · Green end = completed · Red end = rejected or cancelled · The admin decision settles disputes and no-shows by refund, partial release or full release" vertex="1">
+        <mxCell id="XlSbtiJXAnSsKm-7rsXn-52" parent="S8cR72F4rlXZbPpjLX5q-1" style="text;html=1;fontSize=14;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#5A626E;" value="Dashed line = exception or dispute path · Blue outline = payment held in escrow after Pesapal confirms · Green end = buyer confirms receipt and escrow is released to farmer (minus fee) · Red end = rejected or cancelled · Admin settles disputes by refund, partial or full release" vertex="1">
           <mxGeometry height="30" width="1960" x="1310" y="2540" as="geometry" />
         </mxCell>
         <mxCell id="XlSbtiJXAnSsKm-7rsXn-27" parent="S8cR72F4rlXZbPpjLX5q-1" style="ellipse;html=1;fontSize=14;fillColor=#FDECEC;strokeColor=#C9302C;strokeWidth=3;verticalLabelPosition=bottom;verticalAlign=top;labelPerimeter=1;" value="Cancelled: buyer may retry" vertex="1">
@@ -536,7 +560,40 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-      </root>
+      <mxCell id="u5_f_cancel" parent="XlSbtiJXAnSsKm-7rsXn-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;strokeColor=#8A94A6;dashed=1;" value="Cancel order before the farmer accepts; escrow marked refunded" vertex="1">
+          <mxGeometry height="70" width="140" x="760" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_f_cancel_end" parent="XlSbtiJXAnSsKm-7rsXn-1" style="ellipse;html=1;fontSize=14;fillColor=#FDECEC;strokeColor=#C9302C;strokeWidth=3;verticalLabelPosition=bottom;verticalAlign=top;labelPerimeter=1;" value="Order cancelled; stock returned" vertex="1">
+          <mxGeometry height="40" width="40" x="960" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_fe1" edge="1" parent="XlSbtiJXAnSsKm-7rsXn-1" source="XlSbtiJXAnSsKm-7rsXn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#8A94A6;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=default;dashed=1;" target="u5_f_cancel" value="changes mind">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_fe2" edge="1" parent="XlSbtiJXAnSsKm-7rsXn-1" source="u5_f_cancel" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#8A94A6;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=default;dashed=1;" target="u5_f_cancel_end" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_f_stock" parent="XlSbtiJXAnSsKm-7rsXn-12" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;strokeColor=#8A94A6;" value="Update stock; mark sold out or hidden" vertex="1">
+          <mxGeometry height="70" width="140" x="580" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_fe3" edge="1" parent="XlSbtiJXAnSsKm-7rsXn-12" source="XlSbtiJXAnSsKm-7rsXn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#8A94A6;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=default;" target="u5_f_stock" value="stock changes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_f_alert" parent="XlSbtiJXAnSsKm-7rsXn-36" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;strokeColor=#8A94A6;" value="Alert: new order, agent sign-up or dispute" vertex="1">
+          <mxGeometry height="70" width="140" x="210" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_f_approve" parent="XlSbtiJXAnSsKm-7rsXn-36" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;strokeColor=#8A94A6;" value="Approve or reject field-agent account" vertex="1">
+          <mxGeometry height="70" width="140" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_f_custom" parent="XlSbtiJXAnSsKm-7rsXn-36" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFFF;strokeColor=#8A94A6;" value="Customize logo, name, colours, pictures, weather media" vertex="1">
+          <mxGeometry height="70" width="140" x="590" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_fe4" edge="1" parent="XlSbtiJXAnSsKm-7rsXn-36" source="u5_f_alert" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#8A94A6;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=default;" target="u5_f_approve" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_fe5" edge="1" parent="XlSbtiJXAnSsKm-7rsXn-36" source="u5_f_approve" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#8A94A6;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=default;" target="u5_f_custom" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        </root>
     </mxGraphModel>
   </diagram>
   <diagram name="ERD" id="5cSy62IoZL0e4LgQy1Me">
@@ -1848,37 +1905,524 @@
   <diagram name="Architecture" id="arch-page-lima">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1200" pageHeight="620" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="arch-2" parent="1" style="text;html=1;fontSize=22;fontStyle=1;align=left;" value="Lima architecture (Supabase backend)" vertex="1"><mxGeometry height="34" width="700" x="40" y="20" as="geometry"/></mxCell>
-        <mxCell id="arch-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 4;fillColor=none;strokeColor=#B3261E;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=8;fontStyle=1;fontSize=13;fontColor=#B3261E;" value="Trust boundary 1: user devices (untrusted)" vertex="1"><mxGeometry height="430" width="220" x="40" y="70" as="geometry"/></mxCell>
-        <mxCell id="arch-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 4;fillColor=none;strokeColor=#B3261E;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=8;fontStyle=1;fontSize=13;fontColor=#B3261E;" value="Trust boundary 2: static hosting (Netlify / Vercel / GitHub Pages, HTTPS)" vertex="1"><mxGeometry height="430" width="260" x="300" y="70" as="geometry"/></mxCell>
-        <mxCell id="arch-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 4;fillColor=none;strokeColor=#B3261E;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=8;fontStyle=1;fontSize=13;fontColor=#B3261E;" value="Trust boundary 3: Supabase project (managed, HTTPS only)" vertex="1"><mxGeometry height="430" width="560" x="600" y="70" as="geometry"/></mxCell>
-        <mxCell id="arch-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4FF;strokeColor=#5B7FD6;fontSize=12;" value="Users: buyer, farmer, field agent, rider, admin (mobile browser, 3G/4G)" vertex="1"><mxGeometry height="90" width="180" x="60" y="110" as="geometry"/></mxCell>
-        <mxCell id="arch-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#8A94A6;dashed=1;fontSize=12;" value="Basic-phone farmers: via field agent (SMS/USSD gateway is out of MVP scope)" vertex="1"><mxGeometry height="90" width="180" x="60" y="260" as="geometry"/></mxCell>
-        <mxCell id="arch-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F3E6;strokeColor=#2E6B34;fontSize=12;" value="Presentation layer: static web app (HTML, CSS, JS ES module; supabase-js client; role-based screens)" vertex="1"><mxGeometry height="110" width="220" x="320" y="110" as="geometry"/></mxCell>
-        <mxCell id="arch-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#8A94A6;fontSize=12;" value="jsDelivr CDN: supabase-js library (pinned version)" vertex="1"><mxGeometry height="70" width="220" x="320" y="280" as="geometry"/></mxCell>
-        <mxCell id="arch-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#D49A00;fontSize=12;" value="Supabase Auth: email + password, JWT sessions, signup trigger creates profile; field-agent accounts start pending admin approval (admin role cannot be self-selected)" vertex="1"><mxGeometry height="100" width="250" x="620" y="110" as="geometry"/></mxCell>
-        <mxCell id="arch-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#D49A00;fontSize=12;" value="PostgREST API gateway: validates the JWT, runs every query as role 'authenticated'" vertex="1"><mxGeometry height="80" width="250" x="620" y="240" as="geometry"/></mxCell>
-        <mxCell id="arch-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F3E6;strokeColor=#2E6B34;fontSize=12;" value="PostgreSQL: RLS, escrow and admin functions, site_settings for branding/media, profiles.approval_status for agent review, and notifications for admin alerts" vertex="1"><mxGeometry height="170" width="240" x="900" y="110" as="geometry"/></mxCell>
-        <mxCell id="arch-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#D49A00;fontSize=12;" value="Supabase Storage: 'photos' bucket (images up to 10 MB; weather background video up to 30 MB)" vertex="1"><mxGeometry height="80" width="240" x="900" y="320" as="geometry"/></mxCell>
-        <mxCell id="arch-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F3E6;strokeColor=#2E6B34;fontSize=12;" value="Supabase Edge Functions: pay-start creates checkout; pay-webhook verifies Pesapal IPN and updates escrow. Secrets stay server-side." vertex="1"><mxGeometry height="100" width="250" x="620" y="370" as="geometry"/></mxCell>
-        <mxCell id="arch-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDE3E1;strokeColor=#B3261E;fontSize=12;" value="Pesapal API 3.0 (sandbox): hosted checkout and transaction status API" vertex="1"><mxGeometry height="100" width="190" x="1190" y="370" as="geometry"/></mxCell>
-        <mxCell id="arch-15" edge="1" parent="1" source="arch-6" target="arch-8" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;" value="HTTPS (TLS 1.2+)"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="arch-16" edge="1" parent="1" source="arch-8" target="arch-10" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;" value="HTTPS: sign up / sign in"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="arch-17" edge="1" parent="1" source="arch-8" target="arch-11" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;" value="HTTPS REST + JWT (anon key + user token)"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="arch-18" edge="1" parent="1" source="arch-11" target="arch-12" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;" value="SQL, RLS checks auth.uid()"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="arch-19" edge="1" parent="1" source="arch-8" target="arch-13" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;dashed=1;" value="HTTPS upload / public read"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="arch-20" edge="1" parent="1" source="arch-14" target="arch-12" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;dashed=1;" value="Verified payment status: mark order paid into escrow"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="arch-26" edge="1" parent="1" source="arch-14" target="arch-25" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;" value="HTTPS: request hosted checkout"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="arch-27" edge="1" parent="1" source="arch-25" target="arch-14" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;dashed=1;" value="IPN callback; server checks status with Pesapal"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="arch-28" edge="1" parent="1" source="arch-8" target="arch-14" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;" value="Invoke pay-start with buyer JWT"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="arch-21" edge="1" parent="1" source="arch-10" target="arch-12" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;" value="on signup: insert profile"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="arch-22" edge="1" parent="1" source="arch-8" target="arch-9" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;dashed=1;" value="HTTPS script load"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="arch-23" edge="1" parent="1" source="arch-7" target="arch-6" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;dashed=1;" value="agent registers and lists on farmer's behalf"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="arch-24" parent="1" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;" value="Deployment assumptions: free Supabase tier, one region, daily automatic backups (restore via Supabase dashboard); schema.sql rebuilds the database from scratch. Secrets: only the public anon key ships to the browser; the service-role key is never used in the app." vertex="1"><mxGeometry height="60" width="1100" x="40" y="520" as="geometry"/></mxCell>
-      </root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="arch-2" parent="1" style="text;html=1;fontSize=22;fontStyle=1;align=left;" value="Lima architecture (Supabase backend)" vertex="1">
+          <mxGeometry height="34" width="700" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 4;fillColor=none;strokeColor=#B3261E;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=8;fontStyle=1;fontSize=13;fontColor=#B3261E;" value="Trust boundary 1: user devices (untrusted)" vertex="1">
+          <mxGeometry height="430" width="220" x="40" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 4;fillColor=none;strokeColor=#B3261E;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=8;fontStyle=1;fontSize=13;fontColor=#B3261E;" value="Trust boundary 2: static hosting (Netlify / Vercel / GitHub Pages, HTTPS)" vertex="1">
+          <mxGeometry height="430" width="260" x="300" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 4;fillColor=none;strokeColor=#B3261E;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=8;fontStyle=1;fontSize=13;fontColor=#B3261E;" value="Trust boundary 3: Supabase project (managed, HTTPS only)" vertex="1">
+          <mxGeometry height="430" width="560" x="600" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4FF;strokeColor=#5B7FD6;fontSize=12;" value="Users: buyer, farmer, field agent, rider, admin (mobile browser, 3G/4G)" vertex="1">
+          <mxGeometry height="90" width="180" x="60" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#8A94A6;dashed=1;fontSize=12;" value="Basic-phone farmers: via field agent (SMS/USSD gateway is out of MVP scope)" vertex="1">
+          <mxGeometry height="90" width="180" x="60" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F3E6;strokeColor=#2E6B34;fontSize=12;" value="Presentation layer: static web app (HTML, CSS, JS ES module; supabase-js client; role-based screens; installable PWA with phone menu, hosted on Netlify)" vertex="1">
+          <mxGeometry height="110" width="220" x="320" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#8A94A6;fontSize=12;" value="jsDelivr CDN: supabase-js library (pinned version)" vertex="1">
+          <mxGeometry height="70" width="220" x="320" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#D49A00;fontSize=12;" value="Supabase Auth: email + password, JWT sessions, signup trigger creates profile; field-agent accounts start pending admin approval (admin role cannot be self-selected)" vertex="1">
+          <mxGeometry height="100" width="250" x="620" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#D49A00;fontSize=12;" value="PostgREST API gateway: validates the JWT, runs every query as role &#39;authenticated&#39;" vertex="1">
+          <mxGeometry height="80" width="250" x="620" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F3E6;strokeColor=#2E6B34;fontSize=12;" value="PostgreSQL: RLS, escrow, cancel_order and admin functions, site_settings for branding/media, profiles.approval_status, listings.status (available, sold out, hidden), notifications for admin alerts" vertex="1">
+          <mxGeometry height="170" width="240" x="900" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#D49A00;fontSize=12;" value="Supabase Storage: &#39;photos&#39; bucket (images up to 10 MB; weather background video up to 30 MB)" vertex="1">
+          <mxGeometry height="80" width="240" x="900" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F3E6;strokeColor=#2E6B34;fontSize=12;" value="Supabase Edge Functions: pay-start creates Pesapal checkout; pay-webhook verifies IPN and marks escrow held. Secrets server-side only." vertex="1">
+          <mxGeometry height="100" width="250" x="620" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDE3E1;strokeColor=#B3261E;fontSize=12;" value="Pesapal API 3.0: hosted checkout, GetTransactionStatus, IPN (sandbox or live)" vertex="1">
+          <mxGeometry height="100" width="190" x="1190" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-15" edge="1" parent="1" source="arch-6" target="arch-8" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;" value="HTTPS (TLS 1.2+)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-16" edge="1" parent="1" source="arch-8" target="arch-10" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;" value="HTTPS: sign up / sign in">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-17" edge="1" parent="1" source="arch-8" target="arch-11" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;" value="HTTPS REST + JWT (anon key + user token)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-18" edge="1" parent="1" source="arch-11" target="arch-12" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;" value="SQL, RLS checks auth.uid()">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-19" edge="1" parent="1" source="arch-8" target="arch-13" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;dashed=1;" value="HTTPS upload / public read">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-20" edge="1" parent="1" source="arch-14" target="arch-12" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;dashed=1;" value="Verified payment (status_code=1 COMPLETED): mark order Paid (escrow held)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-26" edge="1" parent="1" source="arch-14" target="arch-25" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;" value="HTTPS: request hosted checkout">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-27" edge="1" parent="1" source="arch-25" target="arch-14" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;dashed=1;" value="IPN → pay-webhook checks GetTransactionStatus with Pesapal">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-28" edge="1" parent="1" source="arch-8" target="arch-14" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;" value="Buyer JWT → pay-start → Pesapal redirect_url">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-21" edge="1" parent="1" source="arch-10" target="arch-12" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;" value="on signup: insert profile">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-22" edge="1" parent="1" source="arch-8" target="arch-9" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;dashed=1;" value="HTTPS script load">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-23" edge="1" parent="1" source="arch-7" target="arch-6" style="endArrow=block;html=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;dashed=1;" value="agent registers and lists on farmer&#39;s behalf">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-24" parent="1" style="text;html=1;whiteSpace=wrap;fontSize=12;align=left;" value="Deployment assumptions: free Supabase tier, one region, daily automatic backups (restore via Supabase dashboard); schema.sql rebuilds the database from scratch. Secrets: only the public anon key ships to the browser; the service-role key is never used in the app." vertex="1">
+          <mxGeometry height="60" width="1100" x="40" y="520" as="geometry" />
+        </mxCell>
+      <mxCell id="u5_arch_meteo" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3EEFB;strokeColor=#2F5FA8;fontSize=12;" value="Open-Meteo API: 5-day weather forecast, no key; called from the browser" vertex="1">
+          <mxGeometry height="100" width="190" x="1190" y="110" as="geometry" />
+        </mxCell>
+        </root>
     </mxGraphModel>
   </diagram>
-<diagram name="ERD (as built)" id="asbuilt-erd"><mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1400" pageHeight="1400" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="asb_profiles" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="PROFILES (was USER)" vertex="1"><mxGeometry x="40" y="40" width="250" height="292" as="geometry"/></mxCell><mxCell id="asb_profiles_r0" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  user_id : uuid" vertex="1"><mxGeometry y="28" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_profiles_r1" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      name : text" vertex="1"><mxGeometry y="50" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_profiles_r2" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      phone_no : text" vertex="1"><mxGeometry y="72" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_profiles_r3" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      role : text" vertex="1"><mxGeometry y="94" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_profiles_r4" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      region : text" vertex="1"><mxGeometry y="116" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_profiles_r5" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      district : text" vertex="1"><mxGeometry y="138" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_profiles_r6" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      town : text" vertex="1"><mxGeometry y="160" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_profiles_r7" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      market : text" vertex="1"><mxGeometry y="182" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_profiles_r8" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      phone_verified : boolean" vertex="1"><mxGeometry y="204" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_profiles_r9" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      onboarded : boolean" vertex="1"><mxGeometry y="226" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_profiles_r10" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      sms_opt_in : boolean" vertex="1"><mxGeometry y="248" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_profiles_r11" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      created_at : timestamp" vertex="1"><mxGeometry y="270" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_listings" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="LISTINGS" vertex="1"><mxGeometry x="340" y="40" width="250" height="314" as="geometry"/></mxCell><mxCell id="asb_listings_r0" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  listing_id : uuid" vertex="1"><mxGeometry y="28" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_listings_r1" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  farmer_id : uuid" vertex="1"><mxGeometry y="50" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_listings_r2" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  posted_by : uuid" vertex="1"><mxGeometry y="72" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_listings_r3" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      produce : text" vertex="1"><mxGeometry y="94" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_listings_r4" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      qty_kg : numeric(10,2)" vertex="1"><mxGeometry y="116" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_listings_r5" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      price_ugx : numeric(12,2)" vertex="1"><mxGeometry y="138" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_listings_r6" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      harvest_date : date" vertex="1"><mxGeometry y="160" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_listings_r7" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      district : text" vertex="1"><mxGeometry y="182" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_listings_r8" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      town : text" vertex="1"><mxGeometry y="204" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_listings_r9" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      photo_url : text" vertex="1"><mxGeometry y="226" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_listings_r10" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      market : text" vertex="1"><mxGeometry y="248" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_listings_r11" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      category : text" vertex="1"><mxGeometry y="270" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_listings_r12" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      created_at : timestamp" vertex="1"><mxGeometry y="292" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_orders" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="ORDERS" vertex="1"><mxGeometry x="640" y="40" width="250" height="248" as="geometry"/></mxCell><mxCell id="asb_orders_r0" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  order_id : uuid" vertex="1"><mxGeometry y="28" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_orders_r1" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  listing_id : uuid" vertex="1"><mxGeometry y="50" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_orders_r2" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  buyer_id : uuid" vertex="1"><mxGeometry y="72" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_orders_r3" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      qty_kg : numeric(10,2)" vertex="1"><mxGeometry y="94" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_orders_r4" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      mode : text" vertex="1"><mxGeometry y="116" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_orders_r5" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      stage : smallint" vertex="1"><mxGeometry y="138" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_orders_r6" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      status : text" vertex="1"><mxGeometry y="160" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_orders_r7" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      delivery_fee_ugx : numeric(12,2)" vertex="1"><mxGeometry y="182" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_orders_r8" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      delivered_at : timestamp" vertex="1"><mxGeometry y="204" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_orders_r9" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      created_at : timestamp" vertex="1"><mxGeometry y="226" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_payments" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="PAYMENTS" vertex="1"><mxGeometry x="940" y="40" width="250" height="160" as="geometry"/></mxCell><mxCell id="asb_payments_r0" parent="asb_payments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  payment_id : uuid" vertex="1"><mxGeometry y="28" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_payments_r1" parent="asb_payments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  order_id : uuid" vertex="1"><mxGeometry y="50" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_payments_r2" parent="asb_payments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      amount_ugx : numeric(12,2)" vertex="1"><mxGeometry y="72" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_payments_r3" parent="asb_payments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      fee_ugx : numeric(12,2)" vertex="1"><mxGeometry y="94" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_payments_r4" parent="asb_payments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      status : text" vertex="1"><mxGeometry y="116" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_payments_r5" parent="asb_payments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      released_at : timestamp" vertex="1"><mxGeometry y="138" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_deliveries" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="DELIVERIES" vertex="1"><mxGeometry x="40" y="372" width="250" height="138" as="geometry"/></mxCell><mxCell id="asb_deliveries_r0" parent="asb_deliveries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  delivery_id : uuid" vertex="1"><mxGeometry y="28" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_deliveries_r1" parent="asb_deliveries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  order_id : uuid" vertex="1"><mxGeometry y="50" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_deliveries_r2" parent="asb_deliveries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  rider_id : uuid" vertex="1"><mxGeometry y="72" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_deliveries_r3" parent="asb_deliveries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      status : text" vertex="1"><mxGeometry y="94" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_deliveries_r4" parent="asb_deliveries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      delivered_at : timestamp" vertex="1"><mxGeometry y="116" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_ratings" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="RATINGS" vertex="1"><mxGeometry x="340" y="394" width="250" height="160" as="geometry"/></mxCell><mxCell id="asb_ratings_r0" parent="asb_ratings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  rating_id : uuid" vertex="1"><mxGeometry y="28" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_ratings_r1" parent="asb_ratings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  order_id : uuid" vertex="1"><mxGeometry y="50" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_ratings_r2" parent="asb_ratings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  rater_id : uuid" vertex="1"><mxGeometry y="72" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_ratings_r3" parent="asb_ratings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  ratee_id : uuid" vertex="1"><mxGeometry y="94" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_ratings_r4" parent="asb_ratings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      stars : smallint" vertex="1"><mxGeometry y="116" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_ratings_r5" parent="asb_ratings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      comment : text" vertex="1"><mxGeometry y="138" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_disputes" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="DISPUTES" vertex="1"><mxGeometry x="640" y="328" width="250" height="182" as="geometry"/></mxCell><mxCell id="asb_disputes_r0" parent="asb_disputes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  dispute_id : uuid" vertex="1"><mxGeometry y="28" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_disputes_r1" parent="asb_disputes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  order_id : uuid" vertex="1"><mxGeometry y="50" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_disputes_r2" parent="asb_disputes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      reason : text" vertex="1"><mxGeometry y="72" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_disputes_r3" parent="asb_disputes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      evidence_ref : text" vertex="1"><mxGeometry y="94" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_disputes_r4" parent="asb_disputes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      status : text" vertex="1"><mxGeometry y="116" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_disputes_r5" parent="asb_disputes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  decided_by : uuid" vertex="1"><mxGeometry y="138" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_disputes_r6" parent="asb_disputes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      created_at : timestamp" vertex="1"><mxGeometry y="160" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_market_prices" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="MARKET_PRICES" vertex="1"><mxGeometry x="940" y="240" width="250" height="138" as="geometry"/></mxCell><mxCell id="asb_market_prices_r0" parent="asb_market_prices" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  price_id : uuid" vertex="1"><mxGeometry y="28" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_market_prices_r1" parent="asb_market_prices" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      produce : text" vertex="1"><mxGeometry y="50" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_market_prices_r2" parent="asb_market_prices" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      district : text" vertex="1"><mxGeometry y="72" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_market_prices_r3" parent="asb_market_prices" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      avg_price_ugx : numeric(12,2)" vertex="1"><mxGeometry y="94" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_market_prices_r4" parent="asb_market_prices" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      as_of : date" vertex="1"><mxGeometry y="116" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_audit_log" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="AUDIT_LOG" vertex="1"><mxGeometry x="40" y="550" width="250" height="138" as="geometry"/></mxCell><mxCell id="asb_audit_log_r0" parent="asb_audit_log" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  log_id : bigint" vertex="1"><mxGeometry y="28" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_audit_log_r1" parent="asb_audit_log" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      actor_id : uuid" vertex="1"><mxGeometry y="50" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_audit_log_r2" parent="asb_audit_log" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      action : text" vertex="1"><mxGeometry y="72" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_audit_log_r3" parent="asb_audit_log" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      entity_id : uuid" vertex="1"><mxGeometry y="94" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_audit_log_r4" parent="asb_audit_log" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      logged_at : timestamp" vertex="1"><mxGeometry y="116" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_cart_items" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;strokeColor=#82b366;" value="CART_ITEMS" vertex="1"><mxGeometry x="340" y="594" width="250" height="94" as="geometry"/></mxCell><mxCell id="asb_cart_items_r0" parent="asb_cart_items" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK,FK  user_id : uuid" vertex="1"><mxGeometry y="28" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_cart_items_r1" parent="asb_cart_items" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK,FK  listing_id : uuid" vertex="1"><mxGeometry y="50" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_cart_items_r2" parent="asb_cart_items" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      qty : numeric(10,2)" vertex="1"><mxGeometry y="72" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_wishlist" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;strokeColor=#82b366;" value="WISHLIST" vertex="1"><mxGeometry x="640" y="550" width="250" height="72" as="geometry"/></mxCell><mxCell id="asb_wishlist_r0" parent="asb_wishlist" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK,FK  user_id : uuid" vertex="1"><mxGeometry y="28" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_wishlist_r1" parent="asb_wishlist" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK,FK  listing_id : uuid" vertex="1"><mxGeometry y="50" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_notifications" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;strokeColor=#82b366;" value="NOTIFICATIONS" vertex="1"><mxGeometry x="940" y="418" width="250" height="138" as="geometry"/></mxCell><mxCell id="asb_notifications_r0" parent="asb_notifications" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  id : bigint" vertex="1"><mxGeometry y="28" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_notifications_r1" parent="asb_notifications" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  user_id : uuid" vertex="1"><mxGeometry y="50" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_notifications_r2" parent="asb_notifications" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      message : text" vertex="1"><mxGeometry y="72" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_notifications_r3" parent="asb_notifications" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      read : boolean" vertex="1"><mxGeometry y="94" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_notifications_r4" parent="asb_notifications" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      created_at : timestamp" vertex="1"><mxGeometry y="116" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_messages" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;strokeColor=#82b366;" value="MESSAGES" vertex="1"><mxGeometry x="40" y="728" width="250" height="138" as="geometry"/></mxCell><mxCell id="asb_messages_r0" parent="asb_messages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  id : bigint" vertex="1"><mxGeometry y="28" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_messages_r1" parent="asb_messages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  order_id : uuid" vertex="1"><mxGeometry y="50" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_messages_r2" parent="asb_messages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  sender_id : uuid" vertex="1"><mxGeometry y="72" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_messages_r3" parent="asb_messages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      body : text" vertex="1"><mxGeometry y="94" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_messages_r4" parent="asb_messages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      created_at : timestamp" vertex="1"><mxGeometry y="116" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_site_settings" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;strokeColor=#82b366;" value="SITE_SETTINGS" vertex="1"><mxGeometry x="340" y="728" width="250" height="94" as="geometry"/></mxCell><mxCell id="asb_site_settings_r0" parent="asb_site_settings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  key : text" vertex="1"><mxGeometry y="28" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_site_settings_r1" parent="asb_site_settings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      value : text" vertex="1"><mxGeometry y="50" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_site_settings_r2" parent="asb_site_settings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      updated_at : timestamp" vertex="1"><mxGeometry y="72" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_feedback" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;strokeColor=#82b366;" value="FEEDBACK" vertex="1"><mxGeometry x="640" y="662" width="250" height="160" as="geometry"/></mxCell><mxCell id="asb_feedback_r0" parent="asb_feedback" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  id : bigint" vertex="1"><mxGeometry y="28" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_feedback_r1" parent="asb_feedback" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  user_id : uuid" vertex="1"><mxGeometry y="50" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_feedback_r2" parent="asb_feedback" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      kind : text" vertex="1"><mxGeometry y="72" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_feedback_r3" parent="asb_feedback" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      message : text" vertex="1"><mxGeometry y="94" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_feedback_r4" parent="asb_feedback" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      status : text" vertex="1"><mxGeometry y="116" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_feedback_r5" parent="asb_feedback" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      created_at : timestamp" vertex="1"><mxGeometry y="138" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_sms_outbox" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;strokeColor=#82b366;" value="SMS_OUTBOX" vertex="1"><mxGeometry x="940" y="596" width="250" height="182" as="geometry"/></mxCell><mxCell id="asb_sms_outbox_r0" parent="asb_sms_outbox" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  id : bigint" vertex="1"><mxGeometry y="28" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_sms_outbox_r1" parent="asb_sms_outbox" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  user_id : uuid" vertex="1"><mxGeometry y="50" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_sms_outbox_r2" parent="asb_sms_outbox" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      phone_no : text" vertex="1"><mxGeometry y="72" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_sms_outbox_r3" parent="asb_sms_outbox" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      message : text" vertex="1"><mxGeometry y="94" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_sms_outbox_r4" parent="asb_sms_outbox" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      status : text" vertex="1"><mxGeometry y="116" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_sms_outbox_r5" parent="asb_sms_outbox" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      created_at : timestamp" vertex="1"><mxGeometry y="138" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_sms_outbox_r6" parent="asb_sms_outbox" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      sent_at : timestamp" vertex="1"><mxGeometry y="160" width="250" height="22" as="geometry"/></mxCell><mxCell id="asb_e1" edge="1" parent="1" source="asb_profiles" target="asb_listings" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e2" edge="1" parent="1" source="asb_profiles" target="asb_listings" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e3" edge="1" parent="1" source="asb_listings" target="asb_orders" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e4" edge="1" parent="1" source="asb_profiles" target="asb_orders" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e5" edge="1" parent="1" source="asb_orders" target="asb_payments" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e6" edge="1" parent="1" source="asb_orders" target="asb_deliveries" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e7" edge="1" parent="1" source="asb_profiles" target="asb_deliveries" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e8" edge="1" parent="1" source="asb_orders" target="asb_ratings" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e9" edge="1" parent="1" source="asb_profiles" target="asb_ratings" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e10" edge="1" parent="1" source="asb_profiles" target="asb_ratings" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e11" edge="1" parent="1" source="asb_orders" target="asb_disputes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e12" edge="1" parent="1" source="asb_profiles" target="asb_disputes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e13" edge="1" parent="1" source="asb_profiles" target="asb_cart_items" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e14" edge="1" parent="1" source="asb_listings" target="asb_cart_items" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e15" edge="1" parent="1" source="asb_profiles" target="asb_wishlist" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e16" edge="1" parent="1" source="asb_listings" target="asb_wishlist" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e17" edge="1" parent="1" source="asb_profiles" target="asb_notifications" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e18" edge="1" parent="1" source="asb_orders" target="asb_messages" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e19" edge="1" parent="1" source="asb_profiles" target="asb_messages" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e20" edge="1" parent="1" source="asb_profiles" target="asb_feedback" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_e21" edge="1" parent="1" source="asb_profiles" target="asb_sms_outbox" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="asb_note" parent="1" style="text;html=1;whiteSpace=wrap;fontSize=12;fontStyle=2;" value="ERD as built in Supabase (supabase/schema.sql). Green = tables added after the original ERD. IDs are uuid. Lines run from parent (one) to child (many); the layout is generated, so tidy it in draw.io." vertex="1"><mxGeometry x="40" y="-10" width="900" height="40" as="geometry"/></mxCell></root></mxGraphModel></diagram>
+  <diagram name="ERD (as built)" id="asbuilt-erd">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1400" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="asb_profiles" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="PROFILES (was USER)" vertex="1">
+          <mxGeometry x="40" y="40" width="250" height="314" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_profiles_r0" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  user_id : uuid" vertex="1">
+          <mxGeometry y="28" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_profiles_r1" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      name : text" vertex="1">
+          <mxGeometry y="50" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_profiles_r2" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      phone_no : text" vertex="1">
+          <mxGeometry y="72" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_profiles_r3" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      role : text" vertex="1">
+          <mxGeometry y="94" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_profiles_r4" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      region : text" vertex="1">
+          <mxGeometry y="116" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_profiles_r5" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      district : text" vertex="1">
+          <mxGeometry y="138" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_profiles_r6" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      town : text" vertex="1">
+          <mxGeometry y="160" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_profiles_r7" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      market : text" vertex="1">
+          <mxGeometry y="182" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_profiles_r8" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      phone_verified : boolean" vertex="1">
+          <mxGeometry y="204" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_profiles_r9" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      onboarded : boolean" vertex="1">
+          <mxGeometry y="226" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_profiles_r10" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      sms_opt_in : boolean" vertex="1">
+          <mxGeometry y="248" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_profiles_r11" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      created_at : timestamp" vertex="1">
+          <mxGeometry y="270" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_listings" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="LISTINGS" vertex="1">
+          <mxGeometry x="340" y="40" width="250" height="336" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_listings_r0" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  listing_id : uuid" vertex="1">
+          <mxGeometry y="28" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_listings_r1" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  farmer_id : uuid" vertex="1">
+          <mxGeometry y="50" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_listings_r2" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  posted_by : uuid" vertex="1">
+          <mxGeometry y="72" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_listings_r3" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      produce : text" vertex="1">
+          <mxGeometry y="94" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_listings_r4" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      qty_kg : numeric(10,2)" vertex="1">
+          <mxGeometry y="116" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_listings_r5" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      price_ugx : numeric(12,2)" vertex="1">
+          <mxGeometry y="138" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_listings_r6" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      harvest_date : date" vertex="1">
+          <mxGeometry y="160" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_listings_r7" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      district : text" vertex="1">
+          <mxGeometry y="182" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_listings_r8" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      town : text" vertex="1">
+          <mxGeometry y="204" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_listings_r9" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      photo_url : text" vertex="1">
+          <mxGeometry y="226" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_listings_r10" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      market : text" vertex="1">
+          <mxGeometry y="248" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_listings_r11" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      category : text" vertex="1">
+          <mxGeometry y="270" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_listings_r12" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      created_at : timestamp" vertex="1">
+          <mxGeometry y="292" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_orders" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="ORDERS" vertex="1">
+          <mxGeometry x="640" y="40" width="250" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_orders_r0" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  order_id : uuid" vertex="1">
+          <mxGeometry y="28" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_orders_r1" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  listing_id : uuid" vertex="1">
+          <mxGeometry y="50" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_orders_r2" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  buyer_id : uuid" vertex="1">
+          <mxGeometry y="72" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_orders_r3" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      qty_kg : numeric(10,2)" vertex="1">
+          <mxGeometry y="94" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_orders_r4" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      mode : text" vertex="1">
+          <mxGeometry y="116" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_orders_r5" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      stage : smallint" vertex="1">
+          <mxGeometry y="138" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_orders_r6" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      status : text" vertex="1">
+          <mxGeometry y="160" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_orders_r7" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      delivery_fee_ugx : numeric(12,2)" vertex="1">
+          <mxGeometry y="182" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_orders_r8" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      delivered_at : timestamp" vertex="1">
+          <mxGeometry y="204" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_orders_r9" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      created_at : timestamp" vertex="1">
+          <mxGeometry y="226" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_payments" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="PAYMENTS" vertex="1">
+          <mxGeometry x="940" y="40" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_payments_r0" parent="asb_payments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  payment_id : uuid" vertex="1">
+          <mxGeometry y="28" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_payments_r1" parent="asb_payments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  order_id : uuid" vertex="1">
+          <mxGeometry y="50" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_payments_r2" parent="asb_payments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      amount_ugx : numeric(12,2)" vertex="1">
+          <mxGeometry y="72" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_payments_r3" parent="asb_payments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      fee_ugx : numeric(12,2)" vertex="1">
+          <mxGeometry y="94" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_payments_r4" parent="asb_payments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      status : text" vertex="1">
+          <mxGeometry y="116" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_payments_r5" parent="asb_payments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      released_at : timestamp" vertex="1">
+          <mxGeometry y="138" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_deliveries" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="DELIVERIES" vertex="1">
+          <mxGeometry x="40" y="372" width="250" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_deliveries_r0" parent="asb_deliveries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  delivery_id : uuid" vertex="1">
+          <mxGeometry y="28" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_deliveries_r1" parent="asb_deliveries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  order_id : uuid" vertex="1">
+          <mxGeometry y="50" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_deliveries_r2" parent="asb_deliveries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  rider_id : uuid" vertex="1">
+          <mxGeometry y="72" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_deliveries_r3" parent="asb_deliveries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      status : text" vertex="1">
+          <mxGeometry y="94" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_deliveries_r4" parent="asb_deliveries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      delivered_at : timestamp" vertex="1">
+          <mxGeometry y="116" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_ratings" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="RATINGS" vertex="1">
+          <mxGeometry x="340" y="394" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_ratings_r0" parent="asb_ratings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  rating_id : uuid" vertex="1">
+          <mxGeometry y="28" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_ratings_r1" parent="asb_ratings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  order_id : uuid" vertex="1">
+          <mxGeometry y="50" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_ratings_r2" parent="asb_ratings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  rater_id : uuid" vertex="1">
+          <mxGeometry y="72" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_ratings_r3" parent="asb_ratings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  ratee_id : uuid" vertex="1">
+          <mxGeometry y="94" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_ratings_r4" parent="asb_ratings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      stars : smallint" vertex="1">
+          <mxGeometry y="116" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_ratings_r5" parent="asb_ratings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      comment : text" vertex="1">
+          <mxGeometry y="138" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_disputes" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="DISPUTES" vertex="1">
+          <mxGeometry x="640" y="328" width="250" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_disputes_r0" parent="asb_disputes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  dispute_id : uuid" vertex="1">
+          <mxGeometry y="28" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_disputes_r1" parent="asb_disputes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  order_id : uuid" vertex="1">
+          <mxGeometry y="50" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_disputes_r2" parent="asb_disputes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      reason : text" vertex="1">
+          <mxGeometry y="72" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_disputes_r3" parent="asb_disputes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      evidence_ref : text" vertex="1">
+          <mxGeometry y="94" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_disputes_r4" parent="asb_disputes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      status : text" vertex="1">
+          <mxGeometry y="116" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_disputes_r5" parent="asb_disputes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  decided_by : uuid" vertex="1">
+          <mxGeometry y="138" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_disputes_r6" parent="asb_disputes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      created_at : timestamp" vertex="1">
+          <mxGeometry y="160" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_market_prices" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="MARKET_PRICES" vertex="1">
+          <mxGeometry x="940" y="240" width="250" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_market_prices_r0" parent="asb_market_prices" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  price_id : uuid" vertex="1">
+          <mxGeometry y="28" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_market_prices_r1" parent="asb_market_prices" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      produce : text" vertex="1">
+          <mxGeometry y="50" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_market_prices_r2" parent="asb_market_prices" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      district : text" vertex="1">
+          <mxGeometry y="72" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_market_prices_r3" parent="asb_market_prices" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      avg_price_ugx : numeric(12,2)" vertex="1">
+          <mxGeometry y="94" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_market_prices_r4" parent="asb_market_prices" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      as_of : date" vertex="1">
+          <mxGeometry y="116" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_audit_log" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;" value="AUDIT_LOG" vertex="1">
+          <mxGeometry x="40" y="550" width="250" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_audit_log_r0" parent="asb_audit_log" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  log_id : bigint" vertex="1">
+          <mxGeometry y="28" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_audit_log_r1" parent="asb_audit_log" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      actor_id : uuid" vertex="1">
+          <mxGeometry y="50" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_audit_log_r2" parent="asb_audit_log" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      action : text" vertex="1">
+          <mxGeometry y="72" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_audit_log_r3" parent="asb_audit_log" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      entity_id : uuid" vertex="1">
+          <mxGeometry y="94" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_audit_log_r4" parent="asb_audit_log" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      logged_at : timestamp" vertex="1">
+          <mxGeometry y="116" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_cart_items" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;strokeColor=#82b366;" value="CART_ITEMS" vertex="1">
+          <mxGeometry x="340" y="594" width="250" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_cart_items_r0" parent="asb_cart_items" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK,FK  user_id : uuid" vertex="1">
+          <mxGeometry y="28" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_cart_items_r1" parent="asb_cart_items" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK,FK  listing_id : uuid" vertex="1">
+          <mxGeometry y="50" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_cart_items_r2" parent="asb_cart_items" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      qty : numeric(10,2)" vertex="1">
+          <mxGeometry y="72" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_wishlist" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;strokeColor=#82b366;" value="WISHLIST" vertex="1">
+          <mxGeometry x="640" y="550" width="250" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_wishlist_r0" parent="asb_wishlist" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK,FK  user_id : uuid" vertex="1">
+          <mxGeometry y="28" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_wishlist_r1" parent="asb_wishlist" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK,FK  listing_id : uuid" vertex="1">
+          <mxGeometry y="50" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_notifications" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;strokeColor=#82b366;" value="NOTIFICATIONS" vertex="1">
+          <mxGeometry x="940" y="418" width="250" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_notifications_r0" parent="asb_notifications" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  id : bigint" vertex="1">
+          <mxGeometry y="28" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_notifications_r1" parent="asb_notifications" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  user_id : uuid" vertex="1">
+          <mxGeometry y="50" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_notifications_r2" parent="asb_notifications" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      message : text" vertex="1">
+          <mxGeometry y="72" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_notifications_r3" parent="asb_notifications" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      read : boolean" vertex="1">
+          <mxGeometry y="94" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_notifications_r4" parent="asb_notifications" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      created_at : timestamp" vertex="1">
+          <mxGeometry y="116" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_messages" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;strokeColor=#82b366;" value="MESSAGES" vertex="1">
+          <mxGeometry x="40" y="728" width="250" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_messages_r0" parent="asb_messages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  id : bigint" vertex="1">
+          <mxGeometry y="28" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_messages_r1" parent="asb_messages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  order_id : uuid" vertex="1">
+          <mxGeometry y="50" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_messages_r2" parent="asb_messages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  sender_id : uuid" vertex="1">
+          <mxGeometry y="72" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_messages_r3" parent="asb_messages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      body : text" vertex="1">
+          <mxGeometry y="94" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_messages_r4" parent="asb_messages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      created_at : timestamp" vertex="1">
+          <mxGeometry y="116" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_site_settings" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;strokeColor=#82b366;" value="SITE_SETTINGS" vertex="1">
+          <mxGeometry x="340" y="728" width="250" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_site_settings_r0" parent="asb_site_settings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  key : text" vertex="1">
+          <mxGeometry y="28" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_site_settings_r1" parent="asb_site_settings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      value : text" vertex="1">
+          <mxGeometry y="50" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_site_settings_r2" parent="asb_site_settings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      updated_at : timestamp" vertex="1">
+          <mxGeometry y="72" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_feedback" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;strokeColor=#82b366;" value="FEEDBACK" vertex="1">
+          <mxGeometry x="640" y="662" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_feedback_r0" parent="asb_feedback" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  id : bigint" vertex="1">
+          <mxGeometry y="28" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_feedback_r1" parent="asb_feedback" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  user_id : uuid" vertex="1">
+          <mxGeometry y="50" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_feedback_r2" parent="asb_feedback" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      kind : text" vertex="1">
+          <mxGeometry y="72" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_feedback_r3" parent="asb_feedback" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      message : text" vertex="1">
+          <mxGeometry y="94" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_feedback_r4" parent="asb_feedback" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      status : text" vertex="1">
+          <mxGeometry y="116" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_feedback_r5" parent="asb_feedback" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      created_at : timestamp" vertex="1">
+          <mxGeometry y="138" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_sms_outbox" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=13;swimlaneFillColor=#ffffff;fillColor=#d5e8d4;strokeColor=#82b366;" value="SMS_OUTBOX" vertex="1">
+          <mxGeometry x="940" y="596" width="250" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_sms_outbox_r0" parent="asb_sms_outbox" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;fontStyle=1;overflow=hidden;" value="PK  id : bigint" vertex="1">
+          <mxGeometry y="28" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_sms_outbox_r1" parent="asb_sms_outbox" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="FK  user_id : uuid" vertex="1">
+          <mxGeometry y="50" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_sms_outbox_r2" parent="asb_sms_outbox" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      phone_no : text" vertex="1">
+          <mxGeometry y="72" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_sms_outbox_r3" parent="asb_sms_outbox" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      message : text" vertex="1">
+          <mxGeometry y="94" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_sms_outbox_r4" parent="asb_sms_outbox" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      status : text" vertex="1">
+          <mxGeometry y="116" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_sms_outbox_r5" parent="asb_sms_outbox" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      created_at : timestamp" vertex="1">
+          <mxGeometry y="138" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_sms_outbox_r6" parent="asb_sms_outbox" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      sent_at : timestamp" vertex="1">
+          <mxGeometry y="160" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e1" edge="1" parent="1" source="asb_profiles" target="asb_listings" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e2" edge="1" parent="1" source="asb_profiles" target="asb_listings" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e3" edge="1" parent="1" source="asb_listings" target="asb_orders" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e4" edge="1" parent="1" source="asb_profiles" target="asb_orders" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e5" edge="1" parent="1" source="asb_orders" target="asb_payments" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e6" edge="1" parent="1" source="asb_orders" target="asb_deliveries" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e7" edge="1" parent="1" source="asb_profiles" target="asb_deliveries" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e8" edge="1" parent="1" source="asb_orders" target="asb_ratings" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e9" edge="1" parent="1" source="asb_profiles" target="asb_ratings" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e10" edge="1" parent="1" source="asb_profiles" target="asb_ratings" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e11" edge="1" parent="1" source="asb_orders" target="asb_disputes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e12" edge="1" parent="1" source="asb_profiles" target="asb_disputes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e13" edge="1" parent="1" source="asb_profiles" target="asb_cart_items" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e14" edge="1" parent="1" source="asb_listings" target="asb_cart_items" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e15" edge="1" parent="1" source="asb_profiles" target="asb_wishlist" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e16" edge="1" parent="1" source="asb_listings" target="asb_wishlist" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e17" edge="1" parent="1" source="asb_profiles" target="asb_notifications" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e18" edge="1" parent="1" source="asb_orders" target="asb_messages" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e19" edge="1" parent="1" source="asb_profiles" target="asb_messages" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e20" edge="1" parent="1" source="asb_profiles" target="asb_feedback" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_e21" edge="1" parent="1" source="asb_profiles" target="asb_sms_outbox" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;startArrow=ERmandOne;strokeColor=#888888;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="asb_note" parent="1" style="text;html=1;whiteSpace=wrap;fontSize=12;fontStyle=2;" value="ERD as built in Supabase (supabase/schema.sql). Green = tables added after the original ERD. IDs are uuid. Lines run from parent (one) to child (many); the layout is generated, so tidy it in draw.io. Added by the Nov 2026 migration: profiles.approval_status (pending, approved, rejected), listings.status (available, sold_out, hidden), orders.payment_status." vertex="1">
+          <mxGeometry x="40" y="-10" width="900" height="40" as="geometry" />
+        </mxCell>
+      <mxCell id="u5_p_appr" parent="asb_profiles" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      approval_status : text" vertex="1">
+          <mxGeometry y="292" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_l_status" parent="asb_listings" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      status : text" vertex="1">
+          <mxGeometry y="314" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="u5_o_pay" parent="asb_orders" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;fontSize=11;overflow=hidden;" value="      payment_status : text" vertex="1">
+          <mxGeometry y="248" width="250" height="22" as="geometry" />
+        </mxCell>
+        </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
