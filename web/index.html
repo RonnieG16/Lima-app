@@ -351,53 +351,58 @@ let SHOWN = 24;
 const stepBar = s => `<div class="steps" aria-label="Stage ${s} of 7: ${STAGES[s-1]}">${STAGES.map((_, i) => `<i class="${i < s ? 'on' : ''}"></i>`).join('')}</div>`;
 const btn = (act, id, text, cls = '', extra = '') => `<button type="button" class="${cls}" data-act="${act}" data-id="${esc(id)}" ${extra}>${text}</button>`;
 
-// ---------- pay with mobile money (Pesapal hosted checkout, via the pay-start edge function)
-// The browser never marks an order as paid. pay-start creates a Pesapal checkout; the pay-webhook function
-// moves the order to "Paid (escrow)" after Pesapal confirms. This window just waits and watches the order.
+// ---------- pay with mobile money (Flutterwave, via the pay-start edge function)
+// The browser never marks an order as paid. pay-start asks Flutterwave for the charge; the pay-webhook function
+// moves the order to "Paid (escrow)" after Flutterwave confirms. This window just waits and watches the order.
 function openPay(orders, onPaid) {
   const queue = (Array.isArray(orders) ? orders : [orders]).map(o => ({ id: o.id, total_ugx: +o.total_ugx || 0 }));
   document.getElementById('pay-modal')?.remove();
   const wrap = document.createElement('div'); wrap.id = 'pay-modal'; wrap.className = 'paybg';
-  wrap.innerHTML = '<div class="card" role="dialog" aria-modal="true" aria-label="Pay with Pesapal"><div class="sub"><h3>Pay with Pesapal</h3><button type="button" class="alt xbtn" id="pay-x" aria-label="Close">✕</button></div><div id="pay-body"></div></div>';
+  wrap.innerHTML = '<div class="card" role="dialog" aria-modal="true" aria-label="Pay with mobile money"><div class="sub"><h3>Pay with mobile money</h3><button type="button" class="alt xbtn" id="pay-x" aria-label="Close">✕</button></div><div id="pay-body"></div></div>';
   document.body.appendChild(wrap);
   const body = wrap.querySelector('#pay-body');
-  let timer = null, i = 0;
+  let timer = null, i = 0, phoneNo = '', net = 'MTN';
   const sum = () => queue.slice(i).reduce((a, o) => a + o.total_ugx, 0);
   const stop = () => { if (timer) clearInterval(timer); timer = null; };
   const close = () => { stop(); wrap.remove(); };
+  const guess = p => /^0?(70|74|75)/.test(p.replace(/\D/g, '').replace(/^256/, '')) ? 'AIRTEL' : 'MTN';
   wrap.querySelector('#pay-x').onclick = () => { close(); route(); };
 
   function showForm(msg) {
     stop();
     const left = queue.length - i;
-    body.innerHTML = `<p style="margin:.6rem 0">Amount: <b>${ugx(sum())}</b></p>
-      ${queue.length > 1 ? `<p class="muted" style="margin:0 0 .4rem">${left} order${left > 1 ? 's' : ''} to pay. Each order is checked out separately.</p>` : ''}
+    body.innerHTML = `<p style="margin:.6rem 0">${queue.length > 1 ? left + ' order' + (left > 1 ? 's' : '') + ' to pay · ' : ''}Amount: <b>${ugx(sum())}</b></p>
+      ${queue.length > 1 ? '<p class="muted" style="margin:0 0 .4rem">Each farmer’s order is paid separately, so you will approve one payment per order.</p>' : ''}
+      <label for="pay-phone">Mobile money number</label>
+      <input id="pay-phone" type="tel" inputmode="numeric" placeholder="0771234567" autocomplete="tel" value="${esc(phoneNo)}">
+      <label for="pay-net">Network</label>
+      <select id="pay-net"><option value="MTN" ${net === 'MTN' ? 'selected' : ''}>MTN Mobile Money</option><option value="AIRTEL" ${net === 'AIRTEL' ? 'selected' : ''}>Airtel Money</option></select>
       ${msg ? `<p class="tag bad" style="margin:.5rem 0 0">${esc(msg)}</p>` : ''}
-      <button type="button" id="pay-go">Continue to Pesapal secure checkout</button>
-      <p class="muted" style="margin:.6rem 0 0">Pesapal sandbox checkout. Payment details are entered on Pesapal, not stored by Lima.</p>`;
-    body.querySelector('#pay-go').onclick = () => { body.querySelector('#pay-go').disabled = true; charge(); };
+      <button type="button" id="pay-go">Pay ${ugx(sum())}</button>
+      <p class="muted" style="margin:.6rem 0 0">Test mode, no real money.</p>`;
+    body.querySelector('#pay-phone').oninput = e => { if (e.target.value.replace(/\D/g, '').length >= 3) body.querySelector('#pay-net').value = guess(e.target.value); };
+    body.querySelector('#pay-go').onclick = () => { phoneNo = body.querySelector('#pay-phone').value.trim(); net = body.querySelector('#pay-net').value; body.querySelector('#pay-go').disabled = true; charge(); };
   }
   async function charge() {
-    const { data, error } = await sb.functions.invoke('pay-start', { body: { order_id: queue[i].id } });
+    const { data, error } = await sb.functions.invoke('pay-start', { body: { order_id: queue[i].id, phone: phoneNo, network: net } });
     if (error) {
-      let m = 'Could not start the Pesapal checkout. Please try again.';
+      let m = 'Could not start the payment. Please try again.';
       try { const j = await error.context.json(); if (j.error) m = j.error; } catch {}
       return showForm(m);
     }
-    if (!data?.redirect) return showForm('Pesapal did not return a checkout link. Please try again.');
-    showWaiting(data.redirect);
+    showWaiting(data?.redirect);
   }
   function showWaiting(link) {
     const of = queue.length > 1 ? ` <span class="muted">(order ${i + 1} of ${queue.length}, ${ugx(queue[i].total_ugx)})</span>` : '';
     body.innerHTML = `<p style="margin:.6rem 0 .3rem"><b>Waiting for approval…</b>${of}</p>
-      ${link ? `<p class="muted" style="margin:0 0 .5rem">Continue to Pesapal’s hosted checkout, choose a supported payment method, complete payment there, then return to Lima.</p><a class="btnlink" href="${esc(link)}" target="_blank" rel="noopener"><button type="button">Continue to approve payment</button></a>`
-             : '<p class="muted" style="margin:0">Complete the payment on Pesapal’s secure checkout page, then return to this window.</p>'}
+      ${link ? `<p class="muted" style="margin:0 0 .5rem">Tap the button to approve the payment with your mobile money provider, then come back to this window.</p><a class="btnlink" href="${esc(link)}" target="_blank" rel="noopener"><button type="button">Continue to approve payment</button></a>`
+             : '<p class="muted" style="margin:0">Enter your mobile money PIN when the prompt appears on your phone.</p>'}
       <p class="muted" style="margin:.6rem 0 0">Keep this window open. It updates by itself.</p>`;
     let tries = 0;
     stop();
     timer = setInterval(async () => {
       tries++;
-      const { data } = await sb.from('orders').select('payment_status,stage').eq('order_id', queue[i].id).single();
+      const { data } = await sb.from('orders').select('payment_status,thewton_txn_id,stage').eq('order_id', queue[i].id).single();
       if (data?.payment_status === 'paid' || data?.stage >= 2) {
         stop();
         if (i < queue.length - 1) { i++; charge(); } else { showReceipt(data); if (onPaid) onPaid(); }
@@ -410,7 +415,7 @@ function openPay(orders, onPaid) {
     const all = queue.reduce((a, o) => a + o.total_ugx, 0);
     body.innerHTML = `<p style="margin:.6rem 0 .3rem"><span class="tag">Payment received</span></p>
       <p style="margin:.3rem 0">${ugx(all)} ${queue.length > 1 ? 'for ' + queue.length + ' orders is' : 'is'} held in escrow until you confirm delivery.</p>
-      <button type="button" id="pay-done">Done</button>`;
+      ${queue.length === 1 ? `<p class="muted" style="margin:.3rem 0">Reference: ${esc(d?.thewton_txn_id || '')}</p>` : ''}<button type="button" id="pay-done">Done</button>`;
     body.querySelector('#pay-done').onclick = () => { close(); route(); };
   }
   showForm();
@@ -695,7 +700,7 @@ async function viewOrders() {
     const l = o.listings || {}, p = one(o.payments), d = one(o.disputes), open = o.status === 'open', a = [];
     const mineFarm = l.farmer_id === me.user_id || l.posted_by === me.user_id;
     if (me.role === 'buyer' && o.buyer_id === me.user_id) {
-      if (o.stage === 1 && open) a.push(btn('pay', o.order_id, 'Pay with Pesapal', '', `data-total="${Math.round(Number(o.qty_kg) * Number(l.price_ugx || 0) + Number(o.delivery_fee_ugx || 0))}"`));
+      if (o.stage === 1 && open) a.push(btn('pay', o.order_id, 'Pay with mobile money', '', `data-total="${Math.round(Number(o.qty_kg) * Number(l.price_ugx || 0) + Number(o.delivery_fee_ugx || 0))}"`));
       if (o.stage <= 2 && open) a.push(btn('cancelorder', o.order_id, 'Cancel order', 'alt', `data-paid="${o.stage === 2}"`));
       if (o.stage === 6 && open) a.push(btn('confirm', o.order_id, 'Confirm I received it'));
       if ([5, 6].includes(o.stage) && open) a.push(btn('report', o.order_id, 'Report a problem', 'danger'));
@@ -745,7 +750,7 @@ async function viewReceipt(id) {
    <tr><td>Delivery (${esc(o.mode)})</td><td>${ugx(o.delivery_fee_ugx)}</td></tr>
    <tr><td><b>${isBuyer ? 'Total paid' : 'Buyer paid'}</b></td><td><b>${ugx(p.amount_ugx)}</b></td></tr>
    ${isBuyer ? '' : `<tr><td>Platform fee (${FEE_PCT}%)</td><td>− ${ugx(p.fee_ugx)}</td></tr><tr><td><b>Your payout</b></td><td><b>${ugx(produce - p.fee_ugx)}</b></td></tr>`}</table>
-   <p>Escrow status: <span class="tag">${esc(p.status)}</span> via Pesapal (sandbox)</p>
+   <p>Escrow status: <span class="tag">${esc(p.status)}</span> via Flutterwave (test mode)</p>
    <button type="button" class="noprint" onclick="window.print()">Print or save as PDF</button></div>`;
 }
 
@@ -966,7 +971,7 @@ $app.addEventListener('click', async e => {
     else if (act === 'payall') { openPay(JSON.parse(b.dataset.orders), () => route()); b.disabled = false; return; }
     else if (act === 'cancelorder') {
       if (!confirm(b.dataset.paid === 'true' ? 'Cancel this order? Your payment will be marked for refund.' : 'Cancel this order?')) { b.disabled = false; return; }
-      await rpc('cancel_order', { p_order: id }, 'Order cancelled');
+      await rpc('cancel_order', { p_order: id, p_reason: null }, 'Order cancelled');
     }
     else if (act === 'confirm') await rpc('confirm_receipt', { p_order: id }, 'Receipt confirmed. Payment released to the farmer.');
     else if (act === 'accept') await rpc('farmer_step', { p_order: id, p_to: 3 }, 'Order accepted');
